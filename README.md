@@ -21,7 +21,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2 for review of astronomical measurements.
 
-* **Week 2**: BT08 Sec 2.1 and 2.2 (mostly covered in notes).
+* **Week 2**: BT08 Sec 2.1 and 2.2 (mostly covered in notes). BT08 Appendix D (classical mechanics).
 
 Here, the books referenced are
 
