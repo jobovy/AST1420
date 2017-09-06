@@ -35,7 +35,7 @@ The notes include code snippets, some of which require functions from
 the ``galdyncourse_util`` Python package developed to accompany the
 notes. You can download the latest version of this package
 [here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.1.tar.gz). Untar.gz
-this package using using
+this package using 
 
 ```
 tar xvzf galdyncourse_util-0.1.tar.gz
