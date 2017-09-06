@@ -3,7 +3,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Logistics
 
-* **Meeting time / room**: Fridays 11am - 1pm / TBD
+* **Meeting time / room**: Fridays 11am - 1pm / AB 113
 
 * **Instructor**: Jo Bovy, AB229
 
