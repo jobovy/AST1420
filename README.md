@@ -1,6 +1,14 @@
 # AST1420
 Materials related to AST1420 at the University of Toronto --- Galactic Structure and Dynamics
 
+## Table of Contents
+
+* [Logistics](#logistics)
+* [Lecture notes](#lecture-notes)
+* [Additional reading](#additional-reading)
+* [Lecture slides](#lecture-slides)
+* [Code](#code)
+
 ## Logistics
 
 * **Meeting time / room**: Fridays 11am - 1pm / AB 113
@@ -28,6 +36,10 @@ Here, the books referenced are
 > * BT08: Binney & Tremaine, *Galactic Dynamics*, 2nd Edition, 2008, Princeton University Press. See [this link](https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index_files/BT2errors.pdf) for errata.
 
 > * BM98: Binney & Merrifield, *Galactic Astronomy*, 1998, Princeton University Press. See [this link](http://www-thphys.physics.ox.ac.uk/people/JamesBinney/bmerrors.pdf) for errata.
+
+## Lecture slides
+
+* **Week 1**: [slides for week 1](http://astro.utoronto.ca/~bovy/AST1420/slides/L1-AST1420.pdf)
 
 ## Code
 
