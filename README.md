@@ -25,7 +25,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 2**: [Spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/02.-Spherical-Mass-Distributions.html)
 
-* **Week 3**: [Spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/03.-Equilibria-Spherical-Collisionless-Systems.html)
+* **Week 3**: [Equilibria of spherical, collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/03.-Equilibria-Spherical-Collisionless-Systems.html)
 
 ## Additional reading
 
