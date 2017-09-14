@@ -33,6 +33,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 2**: BT08 Sec 2.1 and 2.2 (mostly covered in notes). BT08 Appendix D (classical mechanics).
 
+* **Week 3**: BT08 Sec 4.1, 4.2, 4.3, 4.8 (almost entirely covered in notes).
+
 Here, the books referenced are
 
 > * BT08: Binney & Tremaine, *Galactic Dynamics*, 2nd Edition, 2008, Princeton University Press. See [this link](https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index_files/BT2errors.pdf) for errata.
