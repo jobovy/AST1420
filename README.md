@@ -4,6 +4,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 ## Table of Contents
 
 * [Logistics](#logistics)
+* [Assignments](#assignments)
 * [Lecture notes](#lecture-notes)
 * [Additional reading](#additional-reading)
 * [Lecture slides](#lecture-slides)
@@ -18,6 +19,14 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Email**: jo - dot - bovy - at - utoronto - dot - ca
 
 * **Syllabus**: Full details can be found in the [syllabus](https://github.com/jobovy/AST1420/blob/master/syllabus/syllabus-ast1420.pdf)
+
+## Assignments
+
+* **Assignment 1**: TBP on Sept. 22, due Oct. 6 at the start of class
+
+* **Assignment 2**: TBP on Oct. 13, due Oct. 27 at the start of class
+
+* **Assignment 3**: TBP on Nov. 3, due Nov. 17 at the start of class
 
 ## Lecture notes
 
