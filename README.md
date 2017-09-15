@@ -54,6 +54,8 @@ Here, the books referenced are
 
 * **Week 1**: [slides for week 1](http://astro.utoronto.ca/~bovy/AST1420/slides/L1-AST1420.pdf)
 
+* **Week 2**: [slides for week 2](http://astro.utoronto.ca/~bovy/AST1420/slides/L2-AST1420.pdf)
+
 ## Code
 
 The notes include code snippets, some of which require functions from
