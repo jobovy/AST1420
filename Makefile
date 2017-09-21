@@ -1,6 +1,9 @@
-all: syllabus
+all: syllabus assignments
 
-.PHONY: syllabus
+.PHONY: syllabus assignments
 
 syllabus:
 	make -C syllabus
+
+assignments:
+	make -C assignments
