@@ -36,6 +36,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 3**: [Equilibria of spherical, collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/03.-Equilibria-Spherical-Collisionless-Systems.html)
 
+* **Week 4**: [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/04.-Masses-Spherical-Systems.html)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2 for review of astronomical measurements.
