@@ -22,7 +22,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 6 at the start of class
+* **Assignment 1**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 6 at the start of class
 
 * **Assignment 2**: TBP on Oct. 13, due Oct. 27 at the start of class
 
@@ -45,6 +45,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 2**: BT08 Sec 2.1 and 2.2 (mostly covered in notes). BT08 Appendix D (classical mechanics).
 
 * **Week 3**: BT08 Sec 4.1, 4.2, 4.3, 4.8 (almost entirely covered in notes).
+
+* **Week 4**: [Wolf et al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406.1220W), [van Dokkum et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...828L...6V), [Walker & Penarrubia (2011)](http://adsabs.harvard.edu/abs/2011ApJ...742...20W).
 
 Here, the books referenced are
 
