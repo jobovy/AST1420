@@ -38,6 +38,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 4**: [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/04.-Masses-Spherical-Systems.html)
 
+* **Week 5**: [Disk mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/05.-Flattened-Mass-Distributions.html)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2 for review of astronomical measurements.
@@ -47,6 +49,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 3**: BT08 Sec 4.1, 4.2, 4.3, 4.8 (almost entirely covered in notes).
 
 * **Week 4**: [Wolf et al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406.1220W), [van Dokkum et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...828L...6V), [Walker & Penarrubia (2011)](http://adsabs.harvard.edu/abs/2011ApJ...742...20W).
+
+* **Week 5**: BT08 Sec. 2.3, 2.6, 3.2.
 
 Here, the books referenced are
 
@@ -61,6 +65,8 @@ Here, the books referenced are
 * **Week 2**: [slides for week 2](http://astro.utoronto.ca/~bovy/AST1420/slides/L2-AST1420.pdf)
 
 * **Week 3**: [slides for week 3](http://astro.utoronto.ca/~bovy/AST1420/slides/L3-AST1420.pdf)
+
+* **Week 4**: [slides for week 4](http://astro.utoronto.ca/~bovy/AST1420/slides/L4-AST1420.pdf)
 
 ## Code
 
