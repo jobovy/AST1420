@@ -50,7 +50,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 4**: [Wolf et al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406.1220W), [van Dokkum et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...828L...6V), [Walker & Penarrubia (2011)](http://adsabs.harvard.edu/abs/2011ApJ...742...20W).
 
-* **Week 5**: BT08 Sec. 2.3, 2.6, 3.2.
+* **Week 5**: BT08 Sec. 2.3 (mostly covered in notes), 2.6 (alternative
+    approach to that in the notes), 3.2 (mostly covered in notes).
 
 Here, the books referenced are
 
