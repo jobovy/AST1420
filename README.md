@@ -84,12 +84,12 @@ Here, the books referenced are
 
 * **Week 5**: [slides for week 5](http://astro.utoronto.ca/~bovy/AST1420/slides/L5-AST1420.pdf)
 
-## Code
+## Code (**Updated to v0.2 on 10/06/2017**)
 
 The notes include code snippets, some of which require functions from
 the ``galdyncourse_util`` Python package developed to accompany the
 notes. You can download the latest version of this package
-[here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.1.tar.gz). Untar.gz
+[here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.2.tar.gz). Untar.gz
 this package using 
 
 ```
