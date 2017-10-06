@@ -93,10 +93,10 @@ notes. You can download the latest version of this package
 this package using 
 
 ```
-tar xvzf galdyncourse_util-0.1.tar.gz
+tar xvzf galdyncourse_util-0.2.tar.gz
 ```
 
-which creates the directory ``galdyncourse_util-0.1``. Enter this
+which creates the directory ``galdyncourse_util-0.2``. Enter this
 directory. Installing the package and other required packages is
 easiest if you are using the [Anaconda Python
 distribution](https://docs.continuum.io/anaconda/), a package manager
