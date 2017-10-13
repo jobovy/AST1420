@@ -42,6 +42,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 6**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/06.-Galactic-Rotation.html)
 
+* **Week 7**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/07.-Equilibria-Flattened-Collisionless-Systems.html)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
@@ -65,6 +67,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 6**: BM98 Sec. 8.2, Sec. 9.1, 9.2, BT08 end of Sec. 3.2;
     [Bovy 2017](http://adsabs.harvard.edu/abs/2017MNRAS.468L..63B).
+
+* **Week 7**: BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3.
 
 Here, the books referenced are
 
