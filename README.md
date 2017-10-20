@@ -44,6 +44,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 7**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/07.-Equilibria-Flattened-Collisionless-Systems.html)
 
+* **Week 8**: [Mildly flattened and triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/08.-Triaxial-Mass-Distributions.html)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
@@ -70,6 +72,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 7**: BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3.
 
+* **Week 8**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
+
 Here, the books referenced are
 
 > * BT08: Binney & Tremaine, *Galactic Dynamics*, 2nd Edition, 2008, Princeton University Press. See [this link](https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index_files/BT2errors.pdf) for errata.
@@ -89,6 +93,8 @@ Here, the books referenced are
 * **Week 5**: [slides for week 5](http://astro.utoronto.ca/~bovy/AST1420/slides/L5-AST1420.pdf)
 
 * **Week 6**: [slides for week 6](http://astro.utoronto.ca/~bovy/AST1420/slides/L6-AST1420.pdf)
+
+* **Week 7**: [slides for week 7](http://astro.utoronto.ca/~bovy/AST1420/slides/L7-AST1420.pdf)
 
 ## Code (**Updated to v0.2 on 10/06/2017**)
 
