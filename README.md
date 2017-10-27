@@ -46,6 +46,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 8**: [Mildly flattened and triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/08.-Triaxial-Mass-Distributions.html)
 
+* **Week 9**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/09.-N-body-Modeling.html)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
