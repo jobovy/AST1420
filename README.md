@@ -82,7 +82,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
     (2011)](http://adsabs.harvard.edu/abs/2011EPJP..126...55D).
 
 * **Week 10**: BM98 Sec. 5.2, 5.3, 5.4; [Andrews et
-    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood Y Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S).
+    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood & Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S).
 
 Here, the books referenced are
 
