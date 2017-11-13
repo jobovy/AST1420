@@ -48,6 +48,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 9**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/09.-N-body-Modeling.html)
 
+* **Week 10**: See additional reading below.
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
@@ -76,7 +78,11 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 8**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
 
-* **Week 9**: BT08 Sec. 2.9, 3.4; [Dehnen & Read (2011)](http://adsabs.harvard.edu/abs/2011EPJP..126...55D).
+* **Week 9**: BT08 Sec. 2.9, 3.4; [Dehnen & Read
+    (2011)](http://adsabs.harvard.edu/abs/2011EPJP..126...55D).
+
+* **Week 10**: BM98 Sec. 5.2, 5.3, 5.4; [Andrews et
+    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood Y Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S).
 
 Here, the books referenced are
 
