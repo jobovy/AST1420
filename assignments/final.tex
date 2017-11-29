@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Final}\\[7pt]
+\emph{Due at 5pm on Dec. 13}\\[7pt]
+\end{center}
+
+The full mark for the final includes the oral defense of the exercises
+listed here as well as your oral answers to the selected questions
+from the Astronomy \& Astrophysics General Qualifying Exam, listed at
+the end of this document. The breakdown is: 50\% written solutions,
+25\,\% oral defense of solutions, 25\,\% Qualifying Exam
+questions. The points given for the different problems below only
+relate to the 50\,\% written-solutions part of the full mark.\\
+
+Some of the exercises in this final must be solved on a computer and
+the best way to hand in the final is as an \texttt{jupyter
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private.
+
+If you want to upload your notebook as a gist from the command-line,
+you can use the package \href{http://github.com/defunkt/gist}{at this
+  http URL} and use it as follows. Log into your \texttt{GitHub}
+account:\\
+
+\texttt{gist --login}\\
+
+and then upload your notebook
+\texttt{AST1420\_2017\_FINAL\_YOURNAME.ipynb} as\\
+
+\texttt{gist -p AST1420\_2017\_FINAL\_YOURNAME.ipynb}\\
+
+(the \texttt{-p} option will make the gist private). If you want to
+make further changes, you can clone your gist in a separate directory
+and use it as you would any other git repository. \emph{Please re-run
+  the entire notebook (with \texttt{Cell > Run All}) after re-starting
+  the notebook kernel before uploading it}; this will make sure that
+the input and output are fully consistent. 
+
+If you are unfamiliar with notebooks, you can also hand in a
+traditional write-up, but you also need to send in well-commented code
+for how you solved the problems. Thus, notebooks are strongly
+preferred :-)\\
+
+\noindent{\bf Problem 1:} (25 points, 5 each) Short questions.\\
+
+\noindent{\bf (a)} Consider the following potential
+\begin{equation}
+  \Phi(r) = -4\pi G\,\rho_0\,a^2\,\ln\left[1+\frac{a}{r}\right]\,,
+\end{equation}
+where $a$ and $\rho_0$ are constants. Without directly computing the
+full density profile, determine (i) whether or not the total mass is
+finite and if it is finite, what the mass is; (ii) the large $r$
+power-law behavior limit of the density.\\
+
+\noindent{\bf (b)} Give an initial phase-space position in cylindrical
+coordinates for an orbit with eccentricity $0.50$ that reaches a
+maximum height of $20\,\mathrm{kpc}$ above the $z=0$ plane in an NFW
+potential with total mass $M = 10^{12}\,M_\odot$ and scale radius $a =
+16\,\mathrm{kpc}$. Verify your answer by setting up this problem in
+\texttt{galpy}, integrating the orbit, and computing its eccentricity
+and maximum height using the orbit methods \texttt{e} and
+\texttt{zmax}.\\
+
+\noindent{\bf (c)} (BT08 3.15) Prove that at any point in an
+axisymmetric system at which the local density is negligible, the
+epicycle, vertical, and circular frequencies $\kappa$, $\nu$, and
+$\Omega$ are related by $\kappa^2+\nu^2 = 2\Omega^2$.\\
+
+\noindent{\bf (d)} In certain dark-matter models, dark matter
+particles feel an additional long-range force mediated through a
+scalar particle. Such an interaction gives rise to a Yukawa
+potential $V_y(r)$
+\begin{equation}
+  V_y(r) = -\frac{g^2}{4\pi\,r}\,e^{-m_\phi\,r}\,,
+\end{equation}
+where $m_\phi$ is the mass of the scalar mediator and $g$ is a
+coupling constant (we are using units in which $\hbar = c = 1$
+here). At scales $r \gg m_\phi^{-1}$, such a force acts as an
+additional gravitational force between dark-matter particles and can
+therefore be modeled as a simple change in the gravitational constant
+for such particles: $\tilde{G} = G\,(1+\beta^2)$, where $\beta =
+g\,m_P/\sqrt{4\pi}m_{\mathrm{DM}}$ (with $m_P$ the Planck
+mass). Discuss how this additional interaction affects the following
+(that is, how does the inferred mass relate to the true mass):
+
+\begin{itemize}
+\item The matter distribution in disk galaxies inferred from their
+  rotation curves.
+\item The mass of the Milky Way inferred from the velocities of halo globular clusters.
+\item The mass of the Milky Way inferred by assuming that a distant satellite (e.g., Leo I) moves at the escape velocity.
+\item The mass of the Local Group determined using the timing
+  argument.
+\end{itemize}
+
+\noindent{\bf (e)} In the Milky Way, the ratio of the
+epicycle-to-angular frequency $\kappa/\Omega \approx 4/3$. Assuming
+that the rotation curve depends on radius as $v_c \propto r^\alpha$
+and that $\kappa/\Omega$ is constant at the above value, what is the
+outer Lindblad radius $R_\mathrm{OLR}$ of an $m=2$ bar with $\Omega_b
+= 1.85\,\Omega_0$ relative to the Solar radius $R_0$ (where the
+angular velocity is $\Omega_0$)?\\
+
+\noindent{\bf Problem 2:} (15 points; 3 each) Disk galaxies as
+collisionless sytems? One of the first topics that we discussed and
+something we relied on throughout the course is that galaxies are
+\emph{collisionless systems}, that is, their two-body relaxation time
+$t_\mathrm{relax}$ is orders of magnitude larger than the current age
+of the Universe. We derived this result for a simple, uniform density
+spherical system and argued that there are enough orders of magnitude
+to spare in this argument, such that these simplifying assumptions do
+not affect the result. Let's look into that a little more closely
+now.\\
+
+\noindent{\bf (a)} We derived the relaxation time $t_\mathrm{relax}$
+for a spherical system, but many galaxies are \emph{disk galaxies}
+that are far from spherical. Derive the relaxation time in the
+two-dimensional limit, that is, for a uniform density, razor-thin
+galactic disk with size $R$ and typical velocity $v$. What is the
+ratio of $t_\mathrm{relax}$ to $t_\mathrm{cross}$?\\
+
+\noindent{\bf (b)} Explain the result in (a) physically: why is the
+situation in case (a) fundamentally different from the spherical case?
+(Hint: Newton's theorems and the potential of razor-thin disks).\\
+
+\noindent{\bf (c)} The result in (a) might surprise you. But the
+situation gets even more interesting. Galactic disks are not just
+close to being two dimensional, they are also cold in the sense that
+the random velocity $\sigma$ of stars is a small fraction of the
+orbital velocity $v$; let's call $\alpha = \sqrt{2}\sigma/v$ the
+typical relative velocity between two stars. How does the relaxation
+time that you derived in (a) change for a cold disk, assuming a
+constant $\alpha$?\\
+
+\noindent{\bf (d)} In reality, galactic disks are not razor-thin, but
+have some finite thickness $z_d$ in addition to their two-dimensional
+size $R_d$. Derive the relaxation time for a cold ($\alpha < 1$)
+finite-thickness disk. What is this relaxation time relative to that
+for a spherical system? Remember: we are only interested in an
+order-of-magnitude estimate of the relaxation time, so do not attempt
+a complicated derivation, but rather make reasonable simplifying
+assumptions.\\
+
+\noindent{\bf (e)} Using typical parameters for the Milky Way disk, is
+the disk collisionless? How many particles $N$ are necessary to
+simulate its dynamical evolution as a collisionless system?\\
+
+\noindent{\bf Problem 3:} (10 points) Conservation laws and numerical
+integration. Consider an $N$-body system under unsoftened, Newtonian
+gravity. Write a simple $N$-body integrator that uses i) direct
+summation to obtain the forces and ii) the modified Euler, leapfrog,
+or fourth-order Runge-Kutta method for orbit integration of the $N$
+bodies. Investigate the conservation of total angular momentum $\sum_i
+m_i\,\vec{x}_i\times\vec{v}_i$ when using a constant (small) time
+step. (Note: you are free to choose $N$, but do not make it \emph{too}
+small). You should evolve your system for about 100 dynamical
+times. Explain what you see in terms of the theory behind the
+different integrators.
+
+\newpage
+
+\section*{Selected questions from the General Qualifying Exam:}
+
+After having this course, you should be able to answer the following
+questions from the General Qualifying Exam:
+
+\begin{itemize}
+\item What is the total mass (in both dark matter and in stars) of the
+  Milky Way galaxy? How does this compare to M31 and to the LMC? How
+  is this mass determined?
+\item Define and describe globular clusters. Where are they located?
+  What are their typical ages, and how is this determined?
+\item Describe a dynamical method used in the determination of the
+  mass of a galaxy cluster. (Note: full question asks for three
+  methods, not solely dynamical).
+\item What are galaxy clusters? What are their basic properties (e.g.,
+  mass, size). [We'll skip this part: List and explain three ways they
+    can be detected.]
+\item Describe the orbits of stars in a galactic disk and in a
+  galactic spheroid.
+\item Galactic stars are described as a collisionless system. Why?
+\item What is the difference between a globular cluster and a dwarf
+  spheroidal galaxy?
+\item The stars in the solar neighborhood, roughly the 300 pc around
+  us, have a range of ages, metallicities, and orbital properties. How
+  are those properties related?
+\item What is dynamical friction? Explain how this operates in the
+  merger of a small galaxy into a large one.
+\item Sketch the rotation curve for a typical spiral galaxy. Show that
+  a flat rotation curve implies the existence of a dark matter halo
+  with a density profile that drops off as $1/r^2$.
+\item Characterize the stellar populations in the following regions:
+  i) the Galactic bulge, ii) the Galactic disk, outside of star
+  clusters, iii) open star clusters, iv) globular clusters, v) a
+  typical elliptical galaxy.
+\item What is the G-dwarf problem in the solar neighborhood?
+\end{itemize}
+
+\end{document}
