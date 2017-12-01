@@ -112,6 +112,8 @@ Here, the books referenced are
 
 * **Week 10**: [slides for week 10](http://astro.utoronto.ca/~bovy/AST1420/slides/L10-AST1420.pdf)
 
+* **Week 12**: [slides for week 12](http://astro.utoronto.ca/~bovy/AST1420/slides/L12-AST1420.pdf)
+
 ## Code (**Updated to v0.2 on 10/06/2017**)
 
 The notes include code snippets, some of which require functions from
