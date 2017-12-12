@@ -30,6 +30,10 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Lecture notes
 
+* [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html)
+
+* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/00.-Preface.html)
+
 * **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/01.-Introduction.html)
 
 * **Week 2**: [Spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/02.-Spherical-Mass-Distributions.html)
