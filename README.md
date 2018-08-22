@@ -12,7 +12,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Logistics
 
-* **Meeting time / room**: Fridays 11am - 1pm / AB 113
+* **Meeting time / room**: TBD TBD - TBD / AB 113
 
 * **Instructor**: Jo Bovy, AB229
 
@@ -22,13 +22,15 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 6 at the start of class
+* **Assignment 1**: TBP
 
-* **Assignment 2**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment2.pdf), due Oct. 27 at the start of class
+* **Assignment 2**: TBP
 
-* **Assignment 3**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment3.pdf), due Nov. 17 at the start of class
+* **Assignment 3**: TBP
 
 ## Lecture notes
+
+**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
 
 * [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html)
 
@@ -55,6 +57,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 10/12**: See additional reading below.
 
 ## Additional reading
+
+**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
     for review of astronomical measurements.
@@ -95,6 +99,8 @@ Here, the books referenced are
 > * BM98: Binney & Merrifield, *Galactic Astronomy*, 1998, Princeton University Press. See [this link](http://www-thphys.physics.ox.ac.uk/people/JamesBinney/bmerrors.pdf) for errata.
 
 ## Lecture slides
+
+**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
 
 * **Week 1**: [slides for week 1](http://astro.utoronto.ca/~bovy/AST1420/slides/L1-AST1420.pdf)
 
