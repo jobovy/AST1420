@@ -58,7 +58,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Additional reading
 
-**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
+**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE READINGS, UPDATES WILL BE POSTED SOON**
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
     for review of astronomical measurements.
@@ -100,7 +100,7 @@ Here, the books referenced are
 
 ## Lecture slides
 
-**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
+**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE SLIDES, UPDATES WILL BE POSTED SOON**
 
 * **Week 1**: [slides for week 1](http://astro.utoronto.ca/~bovy/AST1420/slides/L1-AST1420.pdf)
 
