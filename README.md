@@ -12,7 +12,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Logistics
 
-* **Meeting time / room**: TBD TBD - TBD / AB 113
+* **Meeting time / room**: Tue/Fri 2:10 - 3:30pm / AB 113
 
 * **Instructor**: Jo Bovy, AB229
 
@@ -22,11 +22,11 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: TBP
+* **Assignment 1**: TBP on Sept. 25, due Oct. 9 at the start of class
 
-* **Assignment 2**: TBP
+* **Assignment 2**: TBP on Oct. 9, due Oct. 23 at the start of class
 
-* **Assignment 3**: TBP
+* **Assignment 3**: TBP on Oct. 30, due Nov. 13 at the start of class
 
 ## Lecture notes
 
