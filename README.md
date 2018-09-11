@@ -30,9 +30,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Lecture notes
 
-(Also see [last year's version](http://astro.utoronto.ca/~bovy/AST1420/notes) of the lecture notes)
-
-**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
+(Also see [last year's version](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html) of the lecture notes)
 
 * [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/index.html)
 
@@ -42,7 +40,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/02.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/03.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/04.-Orbits-in-Spherical-Potentials.html)
 
-* **Week 3**: [http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/06.-Masses-Spherical-Systems.html)
+* **Week 3**: [Equilibria of collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/06.-Masses-Spherical-Systems.html)
 
 * **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/07.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/09.-Orbits-in-Disks.html), and [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/10.-Equilibria-Flattened-Collisionless-Systems.html)
 
