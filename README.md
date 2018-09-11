@@ -30,73 +30,66 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Lecture notes
 
+(Also see [last year's version](http://astro.utoronto.ca/~bovy/AST1420/notes) of the lecture notes)
+
 **NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE NOTES, UPDATES WILL BE POSTED SOON**
 
-* [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html)
+* [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/index.html)
 
-* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/00.-Preface.html)
+* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/00.-Preface.html)
 
-* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/01.-Introduction.html)
+* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/01.-Introduction.html) and [Appendix A: Coordinate systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/A.-Coordinate-systems.html)
 
-* **Week 2**: [Spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/02.-Spherical-Mass-Distributions.html)
+* **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/02.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/03.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/04.-Orbits-in-Spherical-Potentials.html)
 
-* **Week 3**: [Equilibria of spherical, collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/03.-Equilibria-Spherical-Collisionless-Systems.html)
+* **Week 3**: [http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/06.-Masses-Spherical-Systems.html)
 
-* **Week 4**: [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/04.-Masses-Spherical-Systems.html)
+* **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/07.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/09.-Orbits-in-Disks.html), and [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/10.-Equilibria-Flattened-Collisionless-Systems.html)
 
-* **Week 5**: [Disk mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/05.-Flattened-Mass-Distributions.html)
-
-* **Week 6**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/06.-Galactic-Rotation.html)
-
-* **Week 7**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/07.-Equilibria-Flattened-Collisionless-Systems.html)
-
-* **Week 8**: [Mildly flattened and triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/08.-Triaxial-Mass-Distributions.html)
-
-* **Week 9**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes/notebooks/09.-N-body-Modeling.html)
-
-* **Week 10/12**: See additional reading below.
+* **Week 5**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/08.-Galactic-Rotation.html)
 
 ## Additional reading
-
-**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE READINGS, UPDATES WILL BE POSTED SOON**
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
     for review of astronomical measurements.
 
 * **Week 2**: BT08 Sec 2.1 and 2.2 (mostly covered in notes). BT08
-    Appendix D (classical mechanics).
+    Appendix D (classical mechanics). BT08 Sec. 3.1.
 
 * **Week 3**: BT08 Sec 4.1, 4.2, 4.3, 4.8 (almost entirely covered in
-    notes).
-
-* **Week 4**: [Wolf et
+    notes). [Wolf et
     al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406.1220W),
     [van Dokkum et
     al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...828L...6V),
     [Walker & Penarrubia
     (2011)](http://adsabs.harvard.edu/abs/2011ApJ...742...20W).
 
-* **Week 5**: BT08 Sec. 2.3 (mostly covered in notes), 2.6 (alternative
-    approach to that in the notes), 3.2 (mostly covered in notes).
+* **Week 4**: BT08 Sec. 2.3 (mostly covered in notes), 2.6
+    (alternative approach to that in the notes), 3.2 (mostly covered
+    in notes). BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3.
 
-* **Week 6**: BM98 Sec. 8.2, Sec. 9.1, 9.2, BT08 end of Sec. 3.2;
+* **Week 5**: BM98 Sec. 8.2, Sec. 9.1, 9.2, BT08 end of Sec. 3.2;
     [Bovy 2017](http://adsabs.harvard.edu/abs/2017MNRAS.468L..63B).
 
-* **Week 7**: BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3.
+* **Week 6**: TBP
 
-* **Week 8**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
+* **Week 7**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
+
+* **Week 8**: BM98 Sec. 5.2, 5.3, 5.4; [Andrews et
+    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). 
 
 * **Week 9**: BT08 Sec. 2.9, 3.4; [Dehnen & Read
     (2011)](http://adsabs.harvard.edu/abs/2011EPJP..126...55D).
 
-* **Week 10/12**: BM98 Sec. 5.2, 5.3, 5.4; [Andrews et
-    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood & Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S). BT08 8.1.
+* **Week 11**: BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood & Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S). BT08 8.1.
 
 Here, the books referenced are
 
 > * BT08: Binney & Tremaine, *Galactic Dynamics*, 2nd Edition, 2008, Princeton University Press. See [this link](https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index_files/BT2errors.pdf) for errata.
 
 > * BM98: Binney & Merrifield, *Galactic Astronomy*, 1998, Princeton University Press. See [this link](http://www-thphys.physics.ox.ac.uk/people/JamesBinney/bmerrors.pdf) for errata.
+
+> * MvdBW10: Mo, van den Bosch, \& White, 2010, Cambridge University Press. See [this link](http://people.umass.edu/hjmo/book/errata.pdf) for errata.
 
 ## Lecture slides
 
