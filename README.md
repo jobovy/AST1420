@@ -115,19 +115,19 @@ Here, the books referenced are
 
 * **Week 12**: [slides for week 12](http://astro.utoronto.ca/~bovy/AST1420/slides/L12-AST1420.pdf)
 
-## Code (**Updated to v0.2 on 10/06/2017**)
+## Code
 
 The notes include code snippets, some of which require functions from
 the ``galdyncourse_util`` Python package developed to accompany the
 notes. You can download the latest version of this package
-[here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.2.tar.gz). Untar.gz
+[here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.3.tar.gz). Untar.gz
 this package using 
 
 ```
-tar xvzf galdyncourse_util-0.2.tar.gz
+tar xvzf galdyncourse_util-0.3.tar.gz
 ```
 
-which creates the directory ``galdyncourse_util-0.2``. Enter this
+which creates the directory ``galdyncourse_util-0.3``. Enter this
 directory. Installing the package and other required packages is
 easiest if you are using the [Anaconda Python
 distribution](https://docs.continuum.io/anaconda/), a package manager
@@ -142,13 +142,6 @@ environment with
 
 ```
 source activate galdyncourse
-```
-
-Some packages cannot be installed through conda, for those run (after
-activating the environment)
-
-```
-pip install -r requirements.txt
 ```
 
 Finally, a small set of tools in the ``galdyncourse_util`` package
