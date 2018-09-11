@@ -69,7 +69,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 5**: BM98 Sec. 8.2, Sec. 9.1, 9.2, BT08 end of Sec. 3.2;
     [Bovy 2017](http://adsabs.harvard.edu/abs/2017MNRAS.468L..63B).
 
-* **Week 6**: TBP
+* **Week 6**: MvdBW10 Sec. 5.1, 5.2, 5.5; Sec. 7.1, 7.2, 7.3, 7.5.
 
 * **Week 7**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
 
