@@ -93,7 +93,7 @@ Here, the books referenced are
 
 * **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L1-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L2-AST1420-2018.pdf)
 
-**NOTE THAT THESE CURRENTLY STILL REFER TO THE 2017 VERSION OF THE SLIDES, UPDATES WILL BE POSTED SOON**
+**NOTE THAT THE FOLLOWING REFER TO THE 2017 VERSION OF THE SLIDES, UPDATES WILL BE POSTED AFTER CLASS**
 
 * **Week 2**: [slides for week 2](http://astro.utoronto.ca/~bovy/AST1420/slides/L2-AST1420.pdf)
 
