@@ -22,7 +22,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: TBP on Sept. 25, due Oct. 9 at the start of class
+* **Assignment 1**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 9 at the start of class
 
 * **Assignment 2**: TBP on Oct. 9, due Oct. 23 at the start of class
 
