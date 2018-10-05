@@ -97,23 +97,7 @@ Here, the books referenced are
 
 * **Week 3**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L5-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L6-AST1420-2018.pdf)
 
-**NOTE THAT THE FOLLOWING REFER TO THE 2017 VERSION OF THE SLIDES, UPDATES WILL BE POSTED AFTER CLASS**
-
-* **Week 4**: [slides for week 4](http://astro.utoronto.ca/~bovy/AST1420/slides/L4-AST1420.pdf)
-
-* **Week 5**: [slides for week 5](http://astro.utoronto.ca/~bovy/AST1420/slides/L5-AST1420.pdf)
-
-* **Week 6**: [slides for week 6](http://astro.utoronto.ca/~bovy/AST1420/slides/L6-AST1420.pdf)
-
-* **Week 7**: [slides for week 7](http://astro.utoronto.ca/~bovy/AST1420/slides/L7-AST1420.pdf)
-
-* **Week 8**: [slides for week 8](http://astro.utoronto.ca/~bovy/AST1420/slides/L8-AST1420.pdf)
-
-* **Week 9**: [slides for week 9](http://astro.utoronto.ca/~bovy/AST1420/slides/L9-AST1420.pdf)
-
-* **Week 10**: [slides for week 10](http://astro.utoronto.ca/~bovy/AST1420/slides/L10-AST1420.pdf)
-
-* **Week 12**: [slides for week 12](http://astro.utoronto.ca/~bovy/AST1420/slides/L12-AST1420.pdf)
+* **Week 4**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L7-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L8-AST1420-2018.pdf)
 
 ## Code
 
