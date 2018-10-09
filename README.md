@@ -46,6 +46,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 5**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/08.-Galactic-Rotation.html)
 
+* **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
