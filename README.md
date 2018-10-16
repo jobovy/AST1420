@@ -48,6 +48,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
 
+* **Week 7**: Coming soon!
+
 ## Additional reading
 
 * **Week 1**: BM98 Chapter 1 for general background, BM98 Chapter 2
@@ -102,6 +104,8 @@ Here, the books referenced are
 * **Week 4**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L7-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L8-AST1420-2018.pdf)
 
 * **Week 5**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L9-AST1420-2018.pdf)
+
+* **Week 6**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L10-AST1420-2018.pdf)
 
 ## Code
 
