@@ -48,7 +48,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
 
-* **Week 7**: Coming soon!
+* **Week 7**: [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-02.-Orbits-in-Triaxial-Mass-Distributions.html)
 
 ## Additional reading
 
