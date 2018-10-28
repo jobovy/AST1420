@@ -24,7 +24,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Assignment 1**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 9 at the start of class
 
-* **Assignment 2**: TBP on Oct. 9, due Oct. 23 at the start of class
+* **Assignment 2**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment2.pdf), due Oct. 23 at the start of class
 
 * **Assignment 3**: TBP on Oct. 30, due Nov. 13 at the start of class
 
@@ -47,6 +47,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 5**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/08.-Galactic-Rotation.html)
 
 * **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
+
+* **Week 7**: [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-02.-Orbits-in-Triaxial-Mass-Distributions.html)
 
 ## Additional reading
 
@@ -100,6 +102,12 @@ Here, the books referenced are
 * **Week 3**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L5-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L6-AST1420-2018.pdf)
 
 * **Week 4**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L7-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L8-AST1420-2018.pdf)
+
+* **Week 5**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L9-AST1420-2018.pdf)
+
+* **Week 6**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L10-AST1420-2018.pdf)
+
+* **Week 7**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L11-AST1420-2018.pdf)
 
 ## Code
 
