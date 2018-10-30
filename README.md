@@ -26,7 +26,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Assignment 2**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment2.pdf), due Oct. 23 at the start of class
 
-* **Assignment 3**: TBP on Oct. 30, due Nov. 13 at the start of class
+* **Assignment 3**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment3.pdf), due Nov. 13 at the start of class
 
 ## Lecture notes
 
@@ -49,6 +49,8 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
 
 * **Week 7**: [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-02.-Orbits-in-Triaxial-Mass-Distributions.html)
+
+* **Week 8**: See additional reading below.
 
 ## Additional reading
 
@@ -77,7 +79,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 7**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
 
-* **Week 8**: BM98 Sec. 5.2, 5.3, 5.4; [Andrews et
+* **Week 8**: BM98 Sec. 5.2, 5.3, 5.4; for extra reading on chemical evolution: [Andrews et
     al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). 
 
 * **Week 9**: BT08 Sec. 2.9, 3.4; [Dehnen & Read
