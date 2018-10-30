@@ -6,7 +6,7 @@
 \begin{document}
 \begin{center}
 {\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 3}\\[7pt]
-\emph{Due on Nov. 17 at the start of class}\\[7pt]
+\emph{Due on Nov. 13 at the start of class}\\[7pt]
 \end{center}
 
 Most of the exercises in this problem set must be solved on a computer
@@ -26,9 +26,9 @@ account:\\
 \texttt{gist --login}\\
 
 and then upload your notebook
-\texttt{AST1420\_2017\_PS3\_YOURNAME.ipynb} as\\
+\texttt{AST1420\_2018\_PS3\_YOURNAME.ipynb} as\\
 
-\texttt{gist -p AST1420\_2017\_PS3\_YOURNAME.ipynb}\\
+\texttt{gist -p AST1420\_2018\_PS3\_YOURNAME.ipynb}\\
 
 (the \texttt{-p} option will make the gist private). If you want to
 make further changes, you can clone your gist in a separate directory
@@ -42,41 +42,71 @@ traditional write-up, but you also need to send in well-commented code
 for how you solved the problems. Thus, notebooks are strongly
 preferred :-)\\
 
-\noindent{\bf Problem 1:} (10 points) Deviations from circular
-rotation in external galaxies. In chapter 7, we derived the
-two-dimensional velocity fields of external galaxies for various
-rotation curves. In this derivation, we assumed that the gas in these
-galaxies is on circular orbits. In this problem, we will explore what
-happens when this is not the case and what observational limits we can
-place on deviations from circular motion.\\
+\noindent{\bf Problem 1:} (10 points) Growth of perturbations in the
+Universe. We discussed the growth of dark matter and baryonic
+perturbations in class and in the notes; here we dig a little deeper
+into how these perturbations evolve.\\
 
-\noindent{\bf (a)} Following the derivation in Chapter 7.1.2, derive
-the expression for $V(x,y)$ when gas also has a radial component
-$v_R(R)$. For simplicity, assume the same geometry as in Chapter 7.1.2
-and that the radial component does not depend on $\theta$.\\
+\noindent{\bf (a)} We argued that as the Universe transitions from
+being matter dominated at $z \gtrsim 1$ to being dark-energy dominated
+at $z \lesssim 0.5$ perturbations in the linear regime stop
+growing. Show this expliticly by computing and plotting the growing
+mode for our Universe (which you can approximate as consisting of dark
+energy and dark matter with density parameters today of
+$\Omega_{\Lambda,0} = 0.7$ and $\Omega_{m,0} = 0.3$) from $a = 10^{-3}$
+to $a=10$ and compare it to growth in a matter-dominated
+Universe. Normalize the growing mode such that $\delta_m(a=1) =
+1$. Also overplot the scale factor at which dark energy and dark
+matter have equal densities. Discuss.\\
 
-\noindent{\bf (b)} Using this expression, discuss what happens to the
-two-dimensional velocity field when the rotation curve is that of
-solid-body rotation, but $v_R(R)$ is some constant fraction $f=0.1$ of
-$v_c(R)$ [that is, $v_R(R) = f\,v_c(R)$].\\
+\noindent{\bf (b)} We discussed how on large scales---scales much
+larger than the Jeans scale---baryonic perturbations follow the same
+differential equation as dark matter perturbations. However, this does
+not directly imply that baryonic perturbations and dark matter
+perturbations are equal, because their initial conditions differ. In
+particular, before recombination, baryons are coupled to photons,
+undergo baryon acoustic oscillations, and they therefore do not grow,
+while dark matter can already start growing. To investigate what
+happens, consider the evolution equation for baryons in the limit of
+zero pressure and using the approximation that the gravitational
+potential is contributed by the \emph{dark matter} only. Directly
+integrate the differential equation (you can used
+\texttt{scipy.odeint} for this) starting with zero baryon perturbation
+and velocity at $t=10^{-4.5}$ in an Einstein--de-Sitter Universe
+(where $t=1$ corresponds to $a=1$) and integrate until $t=100$ (you
+want to use a logarithmic time grid). Compare the solution to that of
+the dark matter. What happens?\\
 
-\noindent{\bf (c)} How does the behavior you see in (b) generalize to
-other rotation curves? That is, what is the relation between the
-two-dimensional velocity field for $f=0$ and for general $f$? When you
-have photometry (or HI emission) \emph{and} kinematics for an external
-galaxy (like for NGC 3198 in the notes), how can you combine these
-observations to test for $f \neq 0$?\\
+\noindent{\bf (c)} On scales smaller than the Jeans scale, baryonic
+perturbations cannot grow. Again working in the limit that the
+gravitational potential is sourced by the dark matter alone, show that
+in an Einstein--de-Sitter Universe where the baryon equation of state
+is $P \propto \rho^{4/3}$ a solution of the equation is given by
 
-\noindent{\bf (d)} Plot the two-dimensional velocity field for the
-three basic cases considered in the notes (solid-body rotation, flat
-rotation curve, peaked rotation curve) for $f=0.1$. Discuss what
-happens in terms of (c) above.\\
+\begin{equation}
+  \delta_b(\vec{k},t) = \frac{\delta_c(\vec{k},t)}{1+k^2/k_J^2}\,,
+\end{equation}
 
-\noindent{\bf (e)} Use the HI emission and two-dimensional velocity
-field of NGC 3198 from Walter et al. (2008; see notes) and the above
-behavior to estimate an upper limit on $f$ for this galaxy (without
-having the actual data in hand, simply provide a rough estimate based
-on the figure in the notes).\\
+where $k_J$ is the comoving Jeans wavenumber and $k = |\vec{k}|$. Plot
+$\delta_b/\delta_c$ as a function of $k$ (you will have to compute the
+sound speed for this, which you can do using the knowledge that at
+$z\approx 1,000$ the temperature was $\approx
+3,000\,\mathrm{K}$). Compare this to what this function looks like
+before recombination, when baryons are coupled to photons. Discuss.\\
+
+\noindent{\bf (d)} (extra credit) A more realistic equation of state
+is that of a mono-atomic gas. Still working in the Einstein--de-Sitter
+Universe with the approximation that dark matter alone sources the
+gravitational potential, explicitly integrate the differential
+equation for $\delta_b(\vec{k},t)$ from $a = 10^{-3}$ to $a = 10$
+starting from a vanishing density perturbation and plot the resulting
+function as a function of time for a few well-chosen k and as a
+function of $k$ for a few well-chosen times. Compare to the behavior
+you found in (c) and discuss in terms of what you saw in (b) and
+(c). Hint: To check your code, it's a good idea to test that you
+recover the result in (c). For obtaining numerical values, use that
+the Hubble constant is $H_0 =
+70\,\mathrm{km\,s}^{-1}\,\mathrm{Mpc}^{-1}$.\\
 
 \noindent{\bf Problem 2:} (10 points) Chaos in the Milky Way? In
 class, we discussed the Henon \& Heiles (1964) potential and how it
@@ -108,8 +138,8 @@ integrating it, and displaying it in $(x,y)$ and $(R,z)$.\\
 \noindent{\bf (c)} Investigate the surface of section $(R,v_R)$ (using
 $z=0$ as the surface at which to record points) for orbits with $E =
 E_c(R_c = 30\,\mathrm{kpc})$ and $L_z = 0.15\,L_c(E_c)$ in a similar
-manner to how we did this in the notes in Sections 9.2 and 9.3. Try to
-find interesting parts of the surface of section and discuss these.\\
+manner to how we did this in the notes in Chapter 11. Try to find
+interesting parts of the surface of section and discuss these.\\
 
 \noindent{\bf (d)} Repeat the analysis in (c) for orbits closer to the
 solar neighborhood, at $R_c=9\,\mathrm{kpc}$ (again using $L_z =
