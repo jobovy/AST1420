@@ -3,10 +3,11 @@
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{graphicx}
 \begin{document}
 \begin{center}
 {\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Final}\\[7pt]
-\emph{Due at 5pm on Dec. 13}\\[7pt]
+\emph{Due at 5pm on Dec. 9}\\[7pt]
 \end{center}
 
 The full mark for the final includes the oral defense of the exercises
@@ -34,9 +35,9 @@ account:\\
 \texttt{gist --login}\\
 
 and then upload your notebook
-\texttt{AST1420\_2017\_FINAL\_YOURNAME.ipynb} as\\
+\texttt{AST1420\_2018\_FINAL\_YOURNAME.ipynb} as\\
 
-\texttt{gist -p AST1420\_2017\_FINAL\_YOURNAME.ipynb}\\
+\texttt{gist -p AST1420\_2018\_FINAL\_YOURNAME.ipynb}\\
 
 (the \texttt{-p} option will make the gist private). If you want to
 make further changes, you can clone your gist in a separate directory
@@ -57,40 +58,121 @@ preferred :-)\\
   \Phi(r) = -4\pi G\,\rho_0\,a^2\,\ln\left[1+\frac{a}{r}\right]\,,
 \end{equation}
 where $a$ and $\rho_0$ are constants. Without directly computing the
-full density profile, determine (i) whether or not the total mass is
-finite and if it is finite, what the mass is; (ii) the large $r$
-power-law behavior limit of the density.\\
+full density profile, determine whether or not the total mass is
+finite and if it is finite, what the mass is.\\
 
-\noindent{\bf (b)} Give an initial phase-space position in cylindrical
-coordinates for an orbit with eccentricity $0.50$ that reaches a
-maximum height of $20\,\mathrm{kpc}$ above the $z=0$ plane in an NFW
-potential with total mass $M = 10^{12}\,M_\odot$ and scale radius $a =
-16\,\mathrm{kpc}$. Verify your answer by setting up this problem in
-\texttt{galpy}, integrating the orbit, and computing its eccentricity
-and maximum height using the orbit methods \texttt{e} and
-\texttt{zmax}.\\
+\noindent{\bf (b)} Without using \texttt{galpy} (or any other package
+aside from \texttt{numpy} or \texttt{scipy}), compute the rotation
+curve between $1$ and $300\,\mathrm{kpc}$ for an NFW halo with a
+virial mass of $10^{12}\,M_\odot$ and a concentration of $c=10$ in a
+$\Lambda$CDM Universe with $\Omega_{m,0} = 0.3$, $\Omega_{\Lambda,0}
+= 0.7$, and $H_0 = 70\,\mathrm{km\,s}^{-1}\,\mathrm{Mpc}^{-1}$ that
+virialized at $z=2$.\\
 
-\noindent{\bf (c)} (BT08 3.15) Prove that at any point in an
-axisymmetric system at which the local density is negligible, the
-epicycle, vertical, and circular frequencies $\kappa$, $\nu$, and
-$\Omega$ are related by $\kappa^2+\nu^2 = 2\Omega^2$.\\
+\noindent{\bf (c)} (BT08 3.14) Show that in a spherical potential the
+vertical and circular frequencies $\nu$ and $\Omega$ are equal.\\
 
-\noindent{\bf (d)} In certain dark-matter models, dark matter
-particles feel an additional long-range force mediated through a
-scalar particle. Such an interaction gives rise to a Yukawa
-potential $V_y(r)$
-\begin{equation}
-  V_y(r) = -\frac{g^2}{4\pi\,r}\,e^{-m_\phi\,r}\,,
+\begin{figure}[htp]
+\includegraphics[width=\textwidth]{tremonti.png}
+\caption{The observed mass--metallicity relation for star-forming
+  galaxies in the Sloan Digital Sky Survey (Tremonti et
+  al. 2004).}\label{fig:tremonti}
+\end{figure}
+
+\noindent{\bf (d; 2 parts of 3 points each)} The observed relation
+between the oxygen abundance and the stellar mass of galaxies is shown
+in Figure~\ref{fig:tremonti}. It is clear that there is a strong
+correlation between the stellar mass and the oxygen abundance for
+galaxies. \\
+
+\noindent{\bf (d.1)} Why is oxygen a good element to measure to
+investigate the relation between a galaxy's mass and its metal
+abundance?\\
+
+\noindent{\bf (d.2)} If you interpret this relation in the context of
+the leaky-box chemical-evolution model, what are two options for
+explaining the origin of this relation? Discuss these options in terms
+of what we have learned this semester about dynamics and the structure
+of galaxies.\\
+
+\noindent{\bf Problem 2:} (18 points; 3 each) A popular method for
+modifying gravity is replacing the Newtonian gravitational force with
+a \emph{Yukawa force}. In such a model, particles feel a force
+mediated through a massive, scalar particle instead of the standard
+Newtonian $1/r^2$ force. Such an interaction gives rise to a Yukawa
+potential $\Phi_y(r)$; specifically, an object with mass $M$ gives
+rise to a potential
+\begin{equation}\label{eq:yukawa_pot}
+  \Phi_y(r) = -\frac{\alpha\,GM}{r}\,e^{-m_\phi\,r}\,,
 \end{equation}
-where $m_\phi$ is the mass of the scalar mediator and $g$ is a
-coupling constant (we are using units in which $\hbar = c = 1$
-here). At scales $r \gg m_\phi^{-1}$, such a force acts as an
-additional gravitational force between dark-matter particles and can
-therefore be modeled as a simple change in the gravitational constant
-for such particles: $\tilde{G} = G\,(1+\beta^2)$, where $\beta =
-g\,m_P/\sqrt{4\pi}m_{\mathrm{DM}}$ (with $m_P$ the Planck
-mass). Discuss how this additional interaction affects the following
-(that is, how does the inferred mass relate to the true mass):
+where $\alpha$ parameterizes the strength compared to that of standard
+gravity and $m_\phi$ is the mass of the scalar mediator (in the
+exponential we are using units in which $\hbar = c = 1$). Let's
+investigate these types of models and how well they are constrained!\\
+
+\noindent{\bf{ (a)}} Re-write Equation~\eqref{eq:yukawa_pot} as
+\begin{equation}
+  \Phi_y(r) = -\frac{\alpha\,GM}{r}\,e^{-r/\lambda}\,,
+\end{equation}
+by converting $m_\phi$ to a length scale using $\hbar$ and $c$. In
+particular, what $m_\phi$ does $10^{12}\,\mathrm{km}$ correspond to
+(express $m_\phi$ in eV)?\\
+
+\noindent{\bf{ (b)}} Does Newton's first shell theorem hold if the
+gravitational force is of the Yukawa type rather than Newtonian?
+Explain why or why not.\\
+
+\noindent{\bf{ (c)}} Explore what orbits look like in a Yukawa
+potential. You can do this by considering the effective potential and
+looking at orbits that are either near to or far from circular. Some
+cases to consider: $r \ll \lambda$, $r = \lambda$, $r = 2\lambda$, and
+$r \gg \lambda$.\\
+
+\noindent{\bf{ (d)}} Circular orbits in a spherical potential are
+stable if orbits close to a circular orbit oscillate around the
+circular orbit. In the epicycle formalism, what constraint does this
+set on the epicycle frequency? (Hint: consider the relation between the
+epicycle frequency and the curvature of the effective
+potential.) Using this constraint, find the maximum $r/\lambda$ where
+stable circular orbits exist in a Yukawa potential. Given that galaxy
+clusters appear to be gravitationally bound, what kind of constraint
+on $\lambda$ can you derive from this (express in km and also in terms
+of $m_\phi$ in eV)?\\
+
+\noindent{\bf{ (e)}} Yukawa-type forces can be constrained by using
+the fact that the orbit of the Moon around the Earth or the orbits of
+planets around the Sun close to within measurement
+uncertainties---after accounting for small deviations stemming from
+the general theory of relativity and the Earth/Sun's quadrupole
+moment. Compute, analytically, the precession $2\pi-\Delta \psi$ of
+the apocenter in a Yukawa potential for a near-circular orbit in terms
+of $\alpha$, $\lambda$, and the radius $r$ of the circular orbit. From
+observations of Mercury and Mars' orbits, we can determine that
+$|2\pi-\Delta \psi| \lesssim 100$ nanoradians. For $\alpha \approx
+1$---i.e., gravity is fully Yukawa---what constraint does this put on
+$\lambda$ (express in km) and, thus, $m_\phi$ (express in eV)? For
+reference, the LIGO constraints on $m_\phi$ are $m_\phi \lesssim
+10^{-22}\,\mathrm{eV}$ (these come from the fact that a massive
+graviton leads to frequency-dependent travel-times for gravitational
+waves, constrained by the observed binary-black-hole mergers, and to a
+slower propagation speed of gravitational waves compared to the speed
+of light, constrained by the near-coincidence of the
+gravitational-wave and electromagnetic emission in the binary
+neutron-star merger GW170817).\\
+
+\noindent{\bf{ (f)}} Rather than being a full-on replacement of
+Newtonian gravity, Yukawa-type forces may also be present \emph{in
+  addition} to gravity. For example, in some dark matter models, dark
+matter feels an additional Yukawa force (with strength $\alpha$
+relative to Newtonian gravity) in addition to standard gravity, while
+ordinary matter does not feel the additional force.  At scales $r \gg
+m_\phi^{-1}$, such a force acts as an additional gravitational force
+between dark-matter particles and can therefore be modeled as a simple
+change in the gravitational constant for such particles: $\tilde{G} =
+G\,(1+\alpha)$. Discuss how this additional interaction affects the
+following types of observations if we interpret them assuming that
+gravity is the only force (that is, how does the inferred mass relate
+to the true mass):
 
 \begin{itemize}
 \item The matter distribution in disk galaxies inferred from their
@@ -101,69 +183,23 @@ mass). Discuss how this additional interaction affects the following
   argument.
 \end{itemize}
 
-\noindent{\bf (e)} In the Milky Way, the ratio of the
-epicycle-to-angular frequency $\kappa/\Omega \approx 4/3$. Assuming
-that the rotation curve depends on radius as $v_c \propto r^\alpha$
-and that $\kappa/\Omega$ is constant at the above value, what is the
-outer Lindblad radius $R_\mathrm{OLR}$ of an $m=2$ bar with $\Omega_b
-= 1.85\,\Omega_0$ relative to the Solar radius $R_0$ (where the
-angular velocity is $\Omega_0$)?\\
+%\noindent{\bf{ (g)}} For standard Newtonian gravity, we know that the
+%relation between the gravitational potential and the density is given
+%by the Poisson equation. Derive the relation between $\Phi_y$ and
+%$\rho$ if gravity follows the Yukawa potential rather than the
+%standard Newtonian $\Phi_N \propto -GM/r$ law.\\
 
-\noindent{\bf Problem 2:} (15 points; 3 each) Disk galaxies as
-collisionless sytems? One of the first topics that we discussed and
-something we relied on throughout the course is that galaxies are
-\emph{collisionless systems}, that is, their two-body relaxation time
-$t_\mathrm{relax}$ is orders of magnitude larger than the current age
-of the Universe. We derived this result for a simple, uniform density
-spherical system and argued that there are enough orders of magnitude
-to spare in this argument, such that these simplifying assumptions do
-not affect the result. Let's look into that a little more closely
-now.\\
-
-\noindent{\bf (a)} We derived the relaxation time $t_\mathrm{relax}$
-for a spherical system, but many galaxies are \emph{disk galaxies}
-that are far from spherical. Derive the relaxation time in the
-two-dimensional limit, that is, for a uniform density, razor-thin
-galactic disk with size $R$ and typical velocity $v$. What is the
-ratio of $t_\mathrm{relax}$ to $t_\mathrm{cross}$?\\
-
-\noindent{\bf (b)} Explain the result in (a) physically: why is the
-situation in case (a) fundamentally different from the spherical case?
-(Hint: Newton's theorems and the potential of razor-thin disks).\\
-
-\noindent{\bf (c)} The result in (a) might surprise you. But the
-situation gets even more interesting. Galactic disks are not just
-close to being two dimensional, they are also cold in the sense that
-the random velocity $\sigma$ of stars is a small fraction of the
-orbital velocity $v$; let's call $\alpha = \sqrt{2}\sigma/v$ the
-typical relative velocity between two stars. How does the relaxation
-time that you derived in (a) change for a cold disk, assuming a
-constant $\alpha$?\\
-
-\noindent{\bf (d)} In reality, galactic disks are not razor-thin, but
-have some finite thickness $z_d$ in addition to their two-dimensional
-size $R_d$. Derive the relaxation time for a cold ($\alpha < 1$)
-finite-thickness disk. What is this relaxation time relative to that
-for a spherical system? Remember: we are only interested in an
-order-of-magnitude estimate of the relaxation time, so do not attempt
-a complicated derivation, but rather make reasonable simplifying
-assumptions.\\
-
-\noindent{\bf (e)} Using typical parameters for the Milky Way disk, is
-the disk collisionless? How many particles $N$ are necessary to
-simulate its dynamical evolution as a collisionless system?\\
-
-\noindent{\bf Problem 3:} (10 points) Conservation laws and numerical
+\noindent{\bf Problem 3:} (7 points) Conservation laws and numerical
 integration. Consider an $N$-body system under unsoftened, Newtonian
 gravity. Write a simple $N$-body integrator that uses i) direct
-summation to obtain the forces and ii) the modified Euler, leapfrog,
-or fourth-order Runge-Kutta method for orbit integration of the $N$
-bodies. Investigate the conservation of total angular momentum $\sum_i
-m_i\,\vec{x}_i\times\vec{v}_i$ when using a constant (small) time
-step. (Note: you are free to choose $N$, but do not make it \emph{too}
-small). You should evolve your system for about 100 dynamical
-times. Explain what you see in terms of the theory behind the
-different integrators.
+summation to obtain the forces and ii) both the leapfrog and
+fourth-order Runge-Kutta method for orbit integration of the $N$
+bodies. Compare the conservation of total angular momentum $\sum_i
+m_i\,\vec{x}_i\times\vec{v}_i$ when using a constant (small) time step
+between the leapfrog and Runge-Kutta integrators. (Note: you are free
+to choose $N$, but do not make it \emph{too} small). You should evolve
+your system for about 100 dynamical times. Explain what you see in
+terms of the theory behind the different integrators.
 
 \newpage
 
@@ -181,14 +217,16 @@ questions from the General Qualifying Exam:
 \item Describe a dynamical method used in the determination of the
   mass of a galaxy cluster. (Note: full question asks for three
   methods, not solely dynamical).
+\item Draw the spectral energy distribution (SED) of a galaxy formed
+  by a single burst of star formation at the ages of 10 Myrs, 2 Gyrs,
+  and 10 Gyr. Please highlight the change over time in the 4000
+  Angstrom break.
 \item What are galaxy clusters? What are their basic properties (e.g.,
   mass, size). [We'll skip this part: List and explain three ways they
     can be detected.]
 \item Describe the orbits of stars in a galactic disk and in a
   galactic spheroid.
 \item Galactic stars are described as a collisionless system. Why?
-\item What is the difference between a globular cluster and a dwarf
-  spheroidal galaxy?
 \item The stars in the solar neighborhood, roughly the 300 pc around
   us, have a range of ages, metallicities, and orbital properties. How
   are those properties related?
@@ -202,6 +240,8 @@ questions from the General Qualifying Exam:
   clusters, iii) open star clusters, iv) globular clusters, v) a
   typical elliptical galaxy.
 \item What is the G-dwarf problem in the solar neighborhood?
+\item Describe the general characteristics of spiral structure in
+  galaxies.
 \end{itemize}
 
 \end{document}
