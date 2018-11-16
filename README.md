@@ -118,7 +118,7 @@ Here, the books referenced are
 
 * **Week 8**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L12-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L13-AST1420-2018.pdf)
 
-* **Week 9**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L14-AST1420-2018.pdf)
+* **Week 9**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L14-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L15-AST1420-2018.pdf)
 
 ## Code
 
