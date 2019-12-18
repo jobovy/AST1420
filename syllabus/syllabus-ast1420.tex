@@ -1,0 +1,250 @@
+\documentclass{article}
+
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+
+\include{vc}
+
+\pagestyle{empty}
+
+\baselineskip 18pt
+\textwidth 6.25in
+\textheight 8.5in
+\oddsidemargin 0.1in
+\evensidemargin 0.1in
+\marginparwidth 0in
+\marginparsep 0in
+\topmargin -.5in
+\topskip -.5in
+\parindent 0in
+\parskip 1pt
+
+\begin{document}
+
+\begin{center}
+  \LARGE{\scshape{AST1420: Galactic structure and dynamics}}\\[5pt]
+  \Large{\scshape{Winter 2020}}\\[5pt]
+  \large{(last updated: \today; rev. \githash)}\\[25pt]
+\end{center}
+
+\section*{Course description}
+
+This graduate-level course provides an introduction to galaxies and
+their properties. The focus of the course is on the physical
+understanding of the fundamental processes that shape galaxies and
+their constituents and much attention will go to various
+manifestations of the gravitational force, arguably the most important
+force shaping galaxies. We will also focus on learning the basic
+theoretical tools and observational data sets used in the study of
+galaxies.
+
+\section*{Logistics}
+
+\begin{itemize}
+
+  \item {\bf Meeting time / place:} Tue/Fri, 2:10--3:30pm, Room: AB
+    113.\\% Weeks of Oct 9 and 16, we will meet for 2 hours on Tue
+    %(2--4pm), but not on Fri.
+
+  \item {\bf Instructor:} Jo Bovy, AB 229.
+
+  \item {\bf Email:} \href{mailto:jo.bovy@utoronto.ca}{jo.bovy@utoronto.ca}
+
+  \item {\bf Office hours:} Stop by my office or by appointment.
+
+  \item {\bf Course website:} \url{https://github.com/jobovy/AST1420}.
+
+\end{itemize}
+
+\section*{Learning objectives}
+
+After this course you should understand
+
+\begin{itemize}
+
+  \item the different constituents of galaxies, their typical
+    properties (density, morphology, kinematics, etc.), and their
+    relation to one another.
+
+  \item the basic dynamical properties of mass distributions:
+    dynamical time, relaxation time, circular velocity, escape speed,
+    and the important differences between spherical, axisymmetric, and
+    triaxial mass distributions.
+
+  \item the basic properties of orbits for spherical, axisymmetric,
+    and non-axisymmetric mass distributions; the importance of
+    conservation laws and integrals of the motion in characterizing
+    orbits and galaxies.
+
+  \item the properties of close-to-circular orbits (epicycle
+    approximation) and the dynamics of the solar neighborhood.
+
+  \item rotation curves and the distribution of dark matter in
+    galaxies.
+
+  \item equilibrium states of spherical and axisymmetric stellar
+    systems and how to use these to observationally measure the mass and
+    orbital distributions of galaxies.
+
+  \item the formation and structure of dark matter halos in the
+    $\Lambda$CDM paradigm.
+
+  \item $N$-body modeling.
+
+  \item basic galactic chemical evolution.
+
+  \item how and why bars and spiral structure forms; how galaxies form
+    and grow through violent relaxation, phase-mixing, gas accretion,
+    mergers, and dynamical friction.
+
+  \item how we think disk and elliptical galaxies form.
+
+\end{itemize}
+
+\section*{Reading}
+
+A set of lecture notes will be posted on the course website throughout
+ the semester. For additional reading, we will mostly be using
+
+\begin{itemize}
+
+  \item Binney \& Tremaine, \emph{Galactic Dynamics, 2nd Edition},
+    2008, Princeton University Press. Errata can be found
+    \href{https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index\_files/BT2errors.pdf}{here}.
+
+  \item Binney \& Merrifield, \emph{Galactic Astronomy},
+    1998, Princeton University Press. Errata can be found
+    \href{http://www-thphys.physics.ox.ac.uk/people/JamesBinney/bmerrors.pdf}{here}.
+
+  \item Mo, van den Bosch, \& White, \emph{Galaxy Formation and Evolution},
+    2010, Cambridge University Press. Errata can be found
+    \href{http://people.umass.edu/hjmo/book/errata.pdf}{here}.
+
+\end{itemize}
+
+\section*{Grading scheme}
+
+\begin{itemize}
+
+  \item {\bf Assignments:} 30\,\% over three assignments; see course website for due dates.
+
+  \item {\bf Participation:} 20\,\%
+
+  \item {\bf Presentations:} 20\,\%
+
+  \item {\bf Take-home final + oral exam:} 30\,\%
+
+You are allowed to (and are encouraged to!) work together with
+classmates on the assignments, but each student must hand in an
+independent write-up of their solutions. The take-home final should be
+your own work. Solutions must be written up in a detailed enough
+manner to demonstrate that you understand each step. The oral exam
+will consist of a discussion of the take-home final and questions from
+the General Qualifying Exam.
+
+\end{itemize}
+
+\section*{Academic integrity}
+
+From Appendix D of the Academic Integrity Handbook:
+\begin{quote}
+  Academic integrity is one of the cornerstones of the University of
+  Toronto. It is critically important both to maintain our community
+  which honours the values of honesty, trust, respect, fairness, and
+  responsibility and to protect you, the students within this
+  community, and the value of the degree towards which you are all
+  working so diligently.  
+
+  According to Section B of the University of
+  Toronto's Code of Behaviour on Academic Matter
+  (\url{http://www.governingcouncil.utoronto.ca/policies/behaveac.htm})
+  which all students are expected to read and by which they are
+  expected to abide, it is an offence for students to:
+  \begin{itemize}
+    \item Use someone else's ideas or words in their own work without
+      acknowledging explicitly that those ideas/words are not their
+      own with a citation and quotation marks, i.e. to commit
+      plagiarism.
+  \item Include false, misleading, or concocted citations in their
+    work.
+  \item Obtain unauthorized assistance on any assignment. 
+  \item Provide unauthorized assistance to another students. This
+    includes showing another student your own work.
+  \item Submit their own work for credit in more than one course
+      without the permission of the instructors.
+  \end{itemize}
+
+  There are other offenses covered under the Code, but these are the
+  most common. You are instructed to respect these rules and the
+  values that they protect.
+\end{quote}
+
+\section*{Schedule}
+
+\begin{itemize}
+
+  \item {\bf Week 1:} Introduction to galactic structure; overview of
+    background knowledge.
+
+  \item {\bf Week 2:} General properties of gravitational potentials;
+    properties and examples of spherical mass distributions; basics of
+    classical mechanics; orbits in spherical potentials.
+
+  \item {\bf Week 3:} Galaxies as collisionless sytems; equilibrium
+    configurations of spherical systems; virial theorem; collisionless
+    Boltzmann equation; spherical Jeans equations; spherical
+    distribution functions; applications: masses of spherical systems.
+
+  \item {\bf Week 4:} Properties of disky mass distributions; orbits
+    in axisymmetric potentials; surfaces of section; asymmetric drift;
+    dark matter; rotation curves; gas kinematics in the Milky Way.
+
+  \item {\bf Week 5:} Formation and evolution of dark matter halos;
+    violent relaxation; phase-mixing.
+
+  \item {\bf Week 6:} Spheroidal and triaxial mass distributions;
+    orbits in these mass distributions; Schwarzschild modeling; orbits
+    in these mass distributions; the internal structure of elliptical
+    galaxies.
+
+  \item {\bf Week 7:} chemical evolution of galaxies; age--abundance
+    relations in the solar neighborhood; stellar population synthesis.
+
+  \item {\bf Week 8:} Numerical methods; $N$-body modeling.
+
+  \item {\bf Week 9:} Student presentations.
+
+  \item {\bf Week 10:} Dynamical instabilities; bars; spiral arms.
+
+  \item {\bf Week 11:} Mergers and dynamical friction; tides; review.
+
+\end{itemize}
+
+\section*{Is there class this week? What's due?}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{lcccc}
+Week & Dates &  \quad Tue? \quad & \quad Fri? \quad & \quad Due on Tue? Other notes\\
+\hline
+\hline
+1 & Sep 11 / Sep 14 & Yes & Yes & \\ % Intro
+2 & Sep 18 / Sep 21 & Yes & Yes & \\ % Gravity / spherical orbits
+3 & Sep 25 / Sep 28 & Yes & Yes & \\ % Equilibrium, spherical mass
+4 & Oct 02 / Oct 05 & Yes & Yes & \\ % Disks, disk mass, disk orbits
+5 & Oct 09 / Oct 12 & Yes & {\bf No} & Assignment 1 / 2-hr Tue lecture \\ % galactic rotation
+6 & Oct 16 / Oct 19 & Yes & {\bf No} & Presentation topic  / 2-hr Tue lecture \\ % DM halos
+7 & Oct 23 / Oct 26 & Yes & {\bf No} & Assignment 2 \\ % Spheroidal and triaxial, ellip.
+ & Oct 30 / Nov 02 & {\bf No} & {\bf No} & \\ 
+8 & Nov 06 / Nov 09 & Yes & Yes & \\ % chem. ev.
+9 & Nov 13 / Nov 16 & Yes & Yes &  Assignment 3 \\ % N-body
+10 & Nov 20 / Nov 23 & Yes & Yes & Presentations this week\\ 
+11 & Nov 27 / Nov 30 & Yes & Yes % Bars, spiral, df, tides
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{document}
+
