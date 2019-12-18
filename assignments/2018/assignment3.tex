@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 3}\\[7pt]
+\emph{Due on Nov. 13 at the start of class}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as an \texttt{jupyter
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private.
+
+If you want to upload your notebook as a gist from the command-line,
+you can use the package \href{http://github.com/defunkt/gist}{at this
+  http URL} and use it as follows. Log into your \texttt{GitHub}
+account:\\
+
+\texttt{gist --login}\\
+
+and then upload your notebook
+\texttt{AST1420\_2018\_PS3\_YOURNAME.ipynb} as\\
+
+\texttt{gist -p AST1420\_2018\_PS3\_YOURNAME.ipynb}\\
+
+(the \texttt{-p} option will make the gist private). If you want to
+make further changes, you can clone your gist in a separate directory
+and use it as you would any other git repository. \emph{Please re-run
+  the entire notebook (with \texttt{Cell > Run All}) after re-starting
+  the notebook kernel before uploading it}; this will make sure that
+the input and output are fully consistent. 
+
+If you are unfamiliar with notebooks, you can also hand in a
+traditional write-up, but you also need to send in well-commented code
+for how you solved the problems. Thus, notebooks are strongly
+preferred :-)\\
+
+\noindent{\bf Problem 1:} (10 points) Growth of perturbations in the
+Universe. We discussed the growth of dark matter and baryonic
+perturbations in class and in the notes; here we dig a little deeper
+into how these perturbations evolve.\\
+
+\noindent{\bf (a)} We argued that as the Universe transitions from
+being matter dominated at $z \gtrsim 1$ to being dark-energy dominated
+at $z \lesssim 0.5$ perturbations in the linear regime stop
+growing. Show this explicitly by computing and plotting the growing
+mode for our Universe (which you can approximate as consisting of dark
+energy and dark matter with density parameters today of
+$\Omega_{\Lambda,0} = 0.7$ and $\Omega_{m,0} = 0.3$) from $a = 10^{-3}$
+to $a=10$ and compare it to growth in a matter-dominated
+Universe. Normalize the growing mode such that $\delta_m(a=1) =
+1$. Also overplot the scale factor at which dark energy and dark
+matter have equal densities. Discuss.\\
+
+\noindent{\bf (b)} We discussed how on large scales---scales much
+larger than the Jeans scale---baryonic perturbations follow the same
+differential equation as dark matter perturbations. However, this does
+not directly imply that baryonic perturbations and dark matter
+perturbations are equal, because their initial conditions differ. In
+particular, before recombination, baryons are coupled to photons,
+undergo baryon acoustic oscillations, and they therefore do not grow,
+while dark matter can already start growing. To investigate what
+happens, consider the evolution equation for baryons in the limit of
+zero pressure and using the approximation that the gravitational
+potential is contributed by the \emph{dark matter} only. Directly
+integrate the differential equation (you can use \texttt{scipy.odeint}
+for this) starting with zero baryon perturbation and velocity at
+$t=10^{-4.5}$ in an Einstein--de-Sitter Universe (where $t=1$
+corresponds to $a=1$) and integrate until $t=100$ (you want to use a
+logarithmic time grid). Compare the solution to that of the dark
+matter. What happens?\\
+
+\noindent{\bf (c)} On scales smaller than the Jeans scale, baryonic
+perturbations cannot grow. Again working in the limit that the
+gravitational potential is sourced by the dark matter alone, show that
+in an Einstein--de-Sitter Universe where the baryon equation of state
+is $P \propto \rho^{4/3}$ a solution of the equation is given by
+
+\begin{equation}
+  \delta_b(\vec{k},t) = \frac{\delta_c(\vec{k},t)}{1+k^2/k_J^2}\,,
+\end{equation}
+
+where $k_J$ is the comoving Jeans wavenumber and $k = |\vec{k}|$. Plot
+$\delta_b/\delta_c$ as a function of $k$ (you will have to compute the
+sound speed for this, which you can do using the knowledge that at
+$z\approx 1,000$ the temperature was $\approx
+3,000\,\mathrm{K}$). Compare this to what this function looks like
+before recombination, when baryons are coupled to photons. Discuss.\\
+
+\noindent{\bf (d)} (extra credit) A more realistic equation of state
+is that of a mono-atomic gas. Still working in the Einstein--de-Sitter
+Universe with the approximation that dark matter alone sources the
+gravitational potential, explicitly integrate the differential
+equation for $\delta_b(\vec{k},t)$ from $a = 10^{-3}$ to $a = 10$
+starting from a vanishing density perturbation and plot the resulting
+function as a function of time for a few well-chosen k and as a
+function of $k$ for a few well-chosen times. Compare to the behavior
+you found in (c) and discuss in terms of what you saw in (b) and
+(c). Hint: To check your code, it's a good idea to test that you
+recover the result in (c). For obtaining numerical values, use that
+the Hubble constant is $H_0 =
+70\,\mathrm{km\,s}^{-1}\,\mathrm{Mpc}^{-1}$.\\
+
+\noindent{\bf Problem 2:} (10 points) Chaos in the Milky Way? In
+class, we discussed the Henon \& Heiles (1964) potential and how it
+exhibits chaotic regions. Let's see whether more realistic galactic
+potentials have chaotic regions!\\
+
+\noindent{\bf (a)} An older, but useful for this exercise, model for
+the Milky Way potential was presented by Helmi (2004; MNRAS {\bf 351},
+643). This model consists of a Hernquist bulge, a Miyamoto-Nagai disk,
+and a logarithmic halo with a core radius. These are all basic
+\texttt{galpy} potentials. Setup this model in \texttt{galpy}, plot
+the rotation curve, and compare to the top panel of Fig. 1 of Helmi
+(2004).\\
+
+\noindent{\bf (b)} Let's investigate orbits in this potential. Before
+continuing, it's easiest to turn off the physical outputs of the
+potential that you setup in (a):
+\[\texttt{galpy.potential.turn\_physical\_off(YOUR\_POTENTIAL\_LIST)}.\] Write
+functions that (i) compute the energy $E_c(R_c)$ of a circular orbit
+at a given radius $R_c$ and (ii) the $z$-component of the angular
+momentum $L_c(E_c)$ for this orbit. What is the energy and angular
+momentum of a circular orbit at $R_c = 30\,\mathrm{kpc}$? Use the
+function from the notes to setup an orbit with a given radius, radial
+velocity, energy, and angular momentum. Check that you are correctly
+computing the energy and angular momentum for the circular orbit with
+$R_c = 30\,\mathrm{kpc}$ by setting up an orbit using this function,
+integrating it, and displaying it in $(x,y)$ and $(R,z)$.\\
+
+\noindent{\bf (c)} Investigate the surface of section $(R,v_R)$ (using
+$z=0$ as the surface at which to record points) for orbits with $E =
+E_c(R_c = 30\,\mathrm{kpc})$ and $L_z = 0.15\,L_c(E_c)$ in a similar
+manner to how we did this in the notes in Chapter 11. Try to find
+interesting parts of the surface of section and discuss these.\\
+
+\noindent{\bf (d)} Repeat the analysis in (c) for orbits closer to the
+solar neighborhood, at $R_c=9\,\mathrm{kpc}$ (again using $L_z =
+0.15\,L_c(E_c)$). Again try to find interesting parts of the surface
+of section and discuss what you find.\\
+
+\noindent{\bf (e)} Repeat the analysis in (c), but for a prolate halo:
+that is, set the logarithmic halo's flattening parameter to $q=1.25$.
+Again try to find interesting parts of the surface of section and
+discuss what you find.\\
+
+Note for all of the above: like in the notes, to trace an orbit in the
+surface of section, you have to integrate for a long time and obtain
+high time resolution. A time sequence like \texttt{ts=
+  numpy.linspace(0.,10000.,1000001)} appears to work okay, but you
+might have to adjust this for some orbits.
+
+\end{document}

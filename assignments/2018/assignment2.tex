@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 2}\\[7pt]
+\emph{Due on Oct. 23 at the start of class}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as an \texttt{jupyter
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private.
+
+If you want to upload your notebook as a gist from the command-line,
+you can use the package \href{http://github.com/defunkt/gist}{at this
+  http URL} and use it as follows. Log into your \texttt{GitHub}
+account:\\
+
+\texttt{gist --login}\\
+
+and then upload your notebook
+\texttt{AST1420\_2018\_PS2\_YOURNAME.ipynb} as\\
+
+\texttt{gist -p AST1420\_2018\_PS2\_YOURNAME.ipynb}\\
+
+(the \texttt{-p} option will make the gist private). If you want to
+make further changes, you can clone your gist in a separate directory
+and use it as you would any other git repository. \emph{Please re-run
+  the entire notebook (with \texttt{Cell > Run All}) after re-starting
+  the notebook kernel before uploading it}; this will make sure that
+the input and output are fully consistent. 
+
+If you are unfamiliar with notebooks, you can also hand in a
+traditional write-up, but you also need to send in well-commented code
+for how you solved the problems. Thus, notebooks are strongly
+preferred :-)\\
+
+
+
+\noindent{\bf Problem 1:} (10 points) Bertrand's theorem and the mass
+distribution in the center of the Milky Way. Betrand's theorem states
+that the only mass distributions for which all orbits close are the
+(a) point-mass and (b) homogeneous density sphere. Let's investigate
+this here and see what it implies about the mass distribution in the
+Galactic center.\\
+
+\noindent{\bf (a)} If all orbits in a mass distribution close, then in
+particular orbits that are close to a circular orbit must
+close. Close-to-circular orbits are described by the epicycle
+approximation, so we can use this approximation to see whether orbits
+close. Using the epicycle approximation for spherical mass
+distributions---the same as that discussed for disks, but without the
+vertical dependence of the potential---demonstrate that the only
+gravitational potentials for which close-to-circular orbits close have
+$\phi(r) \propto r^{\beta^2-2}$ where $\beta$ is a rational number
+(you can start from the assumption that the potential has a power-law
+form, because over a small range of radii, all potentials can be
+approximated as such).\\
+
+\noindent{\bf (b)} The form $\phi(r) \propto r^{\beta^2-2}$ with
+$\beta$ a rational number includes potentials where $\beta=5/3$ or
+$\beta=4/3$. Through explicit orbit integration using \texttt{galpy},
+investigate whether all orbits close in potentials with $\beta =
+[1,16/15,5/4,4/3,3/2,11/6,23/12,2]$. What can you conclude?\\
+
+\noindent{\bf (c)} Now numerically show that what you claim in (b) is
+correct by explicitly calculating the radial and azimuthal periods of
+well-chosen orbits in each of these potentials.\\
+
+\noindent{\bf (d)} In the Galactic center, we can observe (partial)
+orbits of the so-called ``S stars''. In particular, the orbit of the
+star S2 (or S0-2 depending on who you ask) has been observed through a
+full azimuthal period and its orbit closes to within the
+uncertainties. While there are closed orbits in many potentials, the
+fact that the one orbit that we observe closes (and which is not
+circular) is good evidence that \emph{all} orbits close in the mass
+distribution that S2 is orbiting in. From Bertrand's theorem we know
+that this means that the mass distribution is dominated either by a
+massive point-like object or that it is homogeneous. These are quite
+different mass distributions! Discuss observations of the S stars that
+distinguish between these two possibilities.\\
+
+\noindent{\bf Problem 2:} (10 points) Deviations from circular
+rotation in external galaxies. In chapter 9, we derived the
+two-dimensional velocity fields of external galaxies for various
+rotation curves. In this derivation, we assumed that the gas in these
+galaxies is on circular orbits. In this problem, we will explore what
+happens when this is not the case and what observational limits we can
+place on deviations from circular motion.\\
+
+\noindent{\bf (a)} Following the derivation in Chapter 9.1.2, derive
+the expression for $V(x,y)$ when gas also has a radial component
+$v_R(R)$. For simplicity, assume the same geometry as in Chapter 9.1.2
+and that the radial component does not depend on $\theta$.\\
+
+\noindent{\bf (b)} Using this expression, discuss what happens to the
+two-dimensional velocity field when the rotation curve is that of
+solid-body rotation, but $v_R(R)$ is some constant fraction $f=0.1$ of
+$v_c(R)$ [that is, $v_R(R) = f\,v_c(R)$].\\
+
+\noindent{\bf (c)} How does the behavior you see in (b) generalize to
+other rotation curves? That is, what is the relation between the
+two-dimensional velocity field for $f=0$ and for general $f$? When you
+have photometry (or HI emission) \emph{and} kinematics for an external
+galaxy (like for NGC 3198 in the notes), how can you combine these
+observations to test for $f \neq 0$?\\
+
+\noindent{\bf (d)} Plot the two-dimensional velocity field for the
+three basic cases considered in the notes (solid-body rotation, flat
+rotation curve, peaked rotation curve) for $f=0.1$. Discuss what
+happens in terms of (c) above.\\
+
+\noindent{\bf (e)} Use the HI emission and two-dimensional velocity
+field of NGC 3198 from Walter et al. (2008; see notes) and the above
+behavior to estimate an upper limit on $f$ for this galaxy (without
+having the actual data in hand, simply provide a rough estimate based
+on the figure in the notes).\\
+
+\end{document}

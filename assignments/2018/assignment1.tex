@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 1}\\[7pt]
+\emph{Due on Oct. 9 at the start of class}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as an \texttt{ipython
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private.
+
+If you want to upload your notebook as a gist from the command-line,
+you can use the package \href{http://github.com/defunkt/gist}{at this
+  http URL} and use it as follows. Log into your \texttt{GitHub}
+account:\\
+
+\texttt{gist --login}\\
+
+and then upload your notebook
+\texttt{AST1420\_2018\_PS1\_YOURNAME.ipynb} as\\
+
+\texttt{gist -p AST1420\_2018\_PS1\_YOURNAME.ipynb}\\
+
+(the \texttt{-p} option will make the gist private). If you want to
+make further changes, you can clone your gist in a separate directory
+and use it as you would any other git repository. \emph{Please re-run
+  the entire notebook (with \texttt{Cell > Run All}) after re-starting
+  the notebook kernel before uploading it}; this will make sure that
+the input and output are fully consistent.
+
+If you are unfamiliar with notebooks, you can also hand in a
+traditional write-up, but you also need to send in well-commented code
+for how you solved the problems. Thus, notebooks are strongly preferred :-)\\
+
+\noindent{\bf Problem 1:} The Local Group Timing Argument. This
+argument about the total mass of the Local Group by Kahn \& Woltjer
+was very influential in early discussions of dark matter. The basic
+argument is given in the lecture notes, where we also performed a
+simple estimate of the mass of the Local Group implied by the current
+separation and relative velocity of Andromeda with respect to the
+Milky Way and the age of the Universe. We'll do a better job here.\\
+
+(a) As discussed in the notes, we can model the system as that of the
+displacement vector with respect to the center of mass in a point-mass
+potential with mass equal to the sum of the Milky Way and Andromeda
+masses. Solve the full Keplerian equation of motion for a radial orbit
+(eccentricity equal to 1) for a present-day separation of 740 kpc,
+relative velocity $-125\,\mathrm{km\,s}^{-1}$, and age of the Universe
+13.7 Gyr. What is the exact mass of the Local Group implied by these
+values? What is the maximum separation between the Milky Way and
+Andromeda in the past? (Hint: use the parametric solution in terms of
+the eccentric anomaly; see BT08.)\\
+
+(b) The modeling in the notes and in part (a) assumes a matter-only
+Universe. However, our Universe contains both matter and dark energy
+(and other components, but they can be neglected for the purpose of
+this problem). The contribution of dark energy to the gravitational
+acceleration is $\Lambda r / 3$, where $\Lambda = 8\pi
+G\rho_\Lambda/c^2$, with $\rho_\Lambda$ the cosmological dark
+energy density. By using the expression for the radial period of an
+orbit in a spherical potential, a similar expression for the time
+between apocenter and the present radius, and energy conservation,
+numerically solve for the mass of the Local Group. In this case, what
+is the maximum separation? Assume that $\Omega_\Lambda = 0.7$ and $H_0
+= 70\,\mathrm{km\,s}^{-1}\,\mathrm{Mpc}^{-1}$.\\
+
+\noindent{\bf Problem 2:} (Inspired by BT08 problem 3.6) Let's
+consider what happens when we add energy to an orbit in a spherical
+potential.\\
+
+\noindent{\bf (a)} Consider an orbit in a spherical isochrone
+potential with $b=1$ (pick an orbit that explores $r \approx 1$ and is
+not too close to circular). Using orbit integration in \texttt{galpy},
+add an instantaneous velocity offset when the orbit is at its
+pericenter radius. Investigate what happens to the pericenter radius
+of the resulting orbit. Is it larger or smaller than the original
+pericenter radius? It is useful to consider the special cases where
+(i) you only change the radial velocity and (ii) you only change the
+tangential velocity (or equivalently the angular momentum). Does the
+answer change if you consider different orbits?\\
+
+\noindent{\bf (b)} Argue why the behavior you saw in part (a) is true
+for \emph{any} orbit in \emph{any} spherical potential. (Hint:
+consider the special cases and what happens to the effective
+potential). You can illustrate your argument with the orbit(s) that
+you investigated in (a), but make it clear why the behavior is general.\\
+
+\noindent{\bf (c)} What happens to the apocenter radius and the
+eccentricity in (a)? Investigate numerically and explain what is
+happening.\\
+
+\noindent{\bf (d)} Does the behavior you see change if you apply the
+velocity offset at different parts of the orbit (e.g., at apocenter,
+or at a random point along the orbit)?\\
+
+\noindent{\bf Problem 3:} The velocity structure of dark matter
+halos. We have discussed the spherical Jeans equation and its
+dependence on the anisotropy parameter $\beta$. Let's investigate its
+effect on velocities in dark matter halos.\\
+
+\noindent{\bf (a)} The simplest model for a dark matter halo is the
+\emph{logarithmic} model: $\Phi(r) = v^2_c\,\ln r$. What is the radial
+velocity dispersion for a constant $\beta$?\\
+
+\noindent{\bf (b)} A more realistic model for the anisotropy accounts
+for the fact that orbits are more isotropic in the inner regions, where
+dark matter has been orbiting for many dynamical times, and more
+radial in the outer regions, where dark matter has only just been
+accreted onto the halo. In the Osipkov--Merritt model, the anisotropy depends on radius as
+
+\begin{equation}\label{eq:beta-osipkov-merritt}
+  \beta(r) = \frac{r^2}{r^2+r_a^2}\,,
+\end{equation}
+
+where $r_a$ is parameter that sets the transition between isotropic
+and radial orbits. Setting $r_a = 1$, compute the radial velocity
+dispersion for the logarithmic model with $v_c = 1$ (perhaps
+numerically). By comparing to the results in (a), does your solution
+make sense?\\
+
+\noindent{\bf (c)} As discussed in class, an often preferred model for
+the dark matter density profile is the NFW profile. Setting the
+parameters of the NFW profile such that the circular velocity is equal
+to one at $a/2$, where $a$ is the scale radius, compute the radial
+velocity dispersion profile for $\beta = 0$, $\beta = 0.5$, $\beta =
+1$, and the form of Equation \eqref{eq:beta-osipkov-merritt} with $r_a
+= 40a/3$. Plot your solution on a logarithmic grid from $r = a/10$ to
+$r=100a$, where $a$ is the scale radius.
+
+\end{document}
