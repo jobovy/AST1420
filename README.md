@@ -22,37 +22,35 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment1.pdf), due Oct. 9 at the start of class
+* **Assignment 1**: TBP
 
-* **Assignment 2**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment2.pdf), due Oct. 23 at the start of class
+* **Assignment 2**: TBP
 
-* **Assignment 3**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment3.pdf), due Nov. 13 at the start of class
+* **Assignment 3**: TBP
 
 ## Lecture notes
 
-(Also see [last year's version](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html) of the lecture notes)
+* [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/index.html)
 
-* [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/index.html)
+* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/00.-Preface.html)
 
-* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/00.-Preface.html)
+* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/01.-Introduction.html) and [Appendix A: Coordinate systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/A.-Coordinate-systems.html)
 
-* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/01.-Introduction.html) and [Appendix A: Coordinate systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/A.-Coordinate-systems.html)
+* **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/02.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/03.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/04.-Orbits-in-Spherical-Potentials.html)
 
-* **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/02.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/03.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/04.-Orbits-in-Spherical-Potentials.html)
+* **Week 3**: [Equilibria of collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/06.-Masses-Spherical-Systems.html)
 
-* **Week 3**: [Equilibria of collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/06.-Masses-Spherical-Systems.html)
+* **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/07.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/09.-Orbits-in-Disks.html), and [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/08.-Galactic-Rotation.html)
 
-* **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/07.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/09.-Orbits-in-Disks.html), and [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/10.-Equilibria-Flattened-Collisionless-Systems.html)
+* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/10.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), ADD SCHWARZSCHILD
 
-* **Week 5**: [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/08.-Galactic-Rotation.html)
+* **Week 6**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/09.-N-body-Modeling.html)
 
-* **Week 6**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
-
-* **Week 7**: [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/III-02.-Orbits-in-Triaxial-Mass-Distributions.html)
+* **Week 7**: [Formation of dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/notebooks/IV-01.-Formation-DM-Halos.html); also read Sec. 7.1, 7.2, 7.3, 7.5. in MvdBW10 (see below)
 
 * **Week 8**: See additional reading below.
 
-* **Week 9**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes-2018/notebooks/09.-N-body-Modeling.html)
+* **Week 9**: See additional reading below.
 
 * **Week 11**: See additional reading below.
 
@@ -75,22 +73,21 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 4**: BT08 Sec. 2.3 (mostly covered in notes), 2.6
     (alternative approach to that in the notes), 3.2 (mostly covered
-    in notes). BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3.
+    in notes). BM98 Sec. 8.2, Sec. 9.1, 9.2.
 
-* **Week 5**: BM98 Sec. 8.2, Sec. 9.1, 9.2, BT08 end of Sec. 3.2;
-    [Bovy 2017](http://adsabs.harvard.edu/abs/2017MNRAS.468L..63B).
+* **Week 5**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8. BT08 Sec. 4.4, 4.5, 4.8 (pp. 353--356), 4.9.3. 
 
-* **Week 6**: MvdBW10 Sec. 5.1, 5.2, 5.5; Sec. 7.1, 7.2, 7.3, 7.5.
-
-* **Week 7**: BT08 Sec. 2.4, 2.5, 3.2.2, 3.3, 3.7.3, 3.8.
-
-* **Week 8**: BM98 Sec. 5.2, 5.3, 5.4; for extra reading on chemical evolution: [Andrews et
-    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A). 
-
-* **Week 9**: BT08 Sec. 2.9, 3.4; [Dehnen & Read
+* **Week 6**: BT08 Sec. 2.9, 3.4; [Dehnen & Read
     (2011)](http://adsabs.harvard.edu/abs/2011EPJP..126...55D).
 
-* **Week 11**: BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood & Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S). BT08 8.1.
+* **Week 7**: MvdBW10 Sec. 5.1, 5.2, 5.5; Sec. 7.1, 7.2, 7.3, 7.5.
+
+* **Week 8**:  BM98 Sec. 5.2, 5.3, 5.4; for extra reading on chemical evolution: [Andrews et
+    al. (2017)](http://adsabs.harvard.edu/abs/2017ApJ...835..224A); [Conroy (2013)](https://ui.adsabs.harvard.edu/abs/2013ARA%26A..51..393C/abstract).
+
+* **Week 9**: BT08 Sec. 3.3.2, 3.3.3; BT08 6.1, 6.2, 6.5; [Sellwood & Binney (2002)](http://adsabs.harvard.edu/abs/2002MNRAS.336..785S).
+
+* **Week 11**:  BT08 8.1, 8.3, 8.5.
 
 Here, the books referenced are
 
@@ -101,6 +98,8 @@ Here, the books referenced are
 > * MvdBW10: Mo, van den Bosch, \& White, 2010, Cambridge University Press. See [this link](http://people.umass.edu/hjmo/book/errata.pdf) for errata.
 
 ## Lecture slides
+
+2018 version below this:
 
 * **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L1-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L2-AST1420-2018.pdf)
 
