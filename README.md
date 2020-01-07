@@ -12,7 +12,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Logistics
 
-* **Meeting time / room**: Tue/Fri 2:10 - 3:30pm / AB 113
+* **Meeting time / room**: Tue/Fri 11:10 - 12:30pm / AB 113
 
 * **Instructor**: Jo Bovy, AB229
 
@@ -121,45 +121,3 @@ Here, the books referenced are
 
 * **Week 11**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L16-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L17-AST1420-2018.pdf), [review slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L17-review-AST1420-2018.pdf)
 
-## Code
-
-The notes include code snippets, some of which require functions from
-the ``galdyncourse_util`` Python package developed to accompany the
-notes. You can download the latest version of this package
-[here](http://astro.utoronto.ca/~bovy/AST1420/code/galdyncourse_util-0.3.tar.gz). Untar.gz
-this package using 
-
-```
-tar xvzf galdyncourse_util-0.3.tar.gz
-```
-
-which creates the directory ``galdyncourse_util-0.3``. Enter this
-directory. Installing the package and other required packages is
-easiest if you are using the [Anaconda Python
-distribution](https://docs.continuum.io/anaconda/), a package manager
-for Python. Most of the necessary packages can be installed by doing
-
-```
-conda env create -f environment.yml
-```
-
-which creates the conda environment ``galdyncourse``. Activate this
-environment with
-
-```
-source activate galdyncourse
-```
-
-Finally, a small set of tools in the ``galdyncourse_util`` package
-specific to these notes can be installed with
-
-```
-python setup.py install
-```
-
-If you have setup your environment this way, don't forget to activate
-the environment every time you want to use it using
-
-```
-source activate galdyncourse
-```
