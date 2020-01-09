@@ -22,11 +22,11 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Assignments
 
-* **Assignment 1**: TBP
+* **Assignment 1**: TBP on Jan. 21, due Feb. 4 at the start of class
 
-* **Assignment 2**: TBP
+* **Assignment 2**: TBP on Feb. 11, due Feb. 25 at the start of class
 
-* **Assignment 3**: TBP
+* **Assignment 3**: TBP on Feb. 25, due Mar. 10 at the start of class
 
 ## Lecture notes
 
