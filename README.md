@@ -32,17 +32,17 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * [Table of Contents](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/index.html)
 
-* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/00.-Preface.html)
+* [Preface](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/0-01.-Preface.html)
 
-* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/01.-Introduction.html) and [Appendix A: Coordinate systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/A.-Coordinate-systems.html)
+* **Week 1**: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/0-02.-Introduction.html) and [Appendix A: Coordinate systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/A.-Coordinate-systems.html)
 
-* **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/02.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/03.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/04.-Orbits-in-Spherical-Potentials.html)
+* **Week 2**: [Gravitation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/I-01.-Potential-Theory-and-Spherical-Mass-Distributions.html), [Elements of classical mechanics](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/I-02.-Elements-of-Classical-Mechanics.html), and [Orbits in spherical mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/I-03.-Orbits-in-Spherical-Potentials.html)
 
-* **Week 3**: [Equilibria of collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/05.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/06.-Masses-Spherical-Systems.html)
+* **Week 3**: [Equilibria of collisionless stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/I-04.-Equilibria-Spherical-Collisionless-Systems.html) and [Masses of spherical stellar systems](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/I-05.-Masses-Spherical-Systems.html)
 
-* **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/07.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/09.-Orbits-in-Disks.html), and [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/08.-Galactic-Rotation.html)
+* **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-01.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-03.-Orbits-in-Disks.html), and [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-02.-Galactic-Rotation.html)
 
-* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/10.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), ADD SCHWARZSCHILD
+* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), ADD SCHWARZSCHILD
 
 * **Week 6**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/09.-N-body-Modeling.html)
 
