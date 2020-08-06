@@ -99,6 +99,8 @@ Here, the books referenced are
 
 ## Lecture slides
 
+* **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2019/L1-AST1420-2019.pdf)
+
 2018 version below this:
 
 * **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L1-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L2-AST1420-2018.pdf)
