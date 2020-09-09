@@ -12,13 +12,17 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 ## Logistics
 
-* **Meeting time / room**: **TBD**
+* **Meeting time / room**: 
+  * *Lectures*: Asynchronous, videos posted Tue morning at a TBD location
+  * *Weekly Q&A*: tentative time Thu 12:10 – 1:30 pm on Zoom
 
-* **Instructor**: Jo Bovy, AB229
+* **Instructor**: Jo Bovy
 
 * **Email**: jo - dot - bovy - at - utoronto - dot - ca
 
 * **Syllabus**: Full details can be found in the [syllabus](https://github.com/jobovy/AST1420/blob/master/syllabus/syllabus-ast1420.pdf)
+
+* **Slack channel**: [#ast1420-fall2020](https://astro-uoft.slack.com/archives/C01A5HURVAA) on the Astro@UofT slack.
 
 ## Assignments
 
@@ -42,7 +46,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-01.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-03.-Orbits-in-Disks.html), and [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-02.-Galactic-Rotation.html)
 
-* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-05.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), ADD SCHWARZSCHILD
+* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-05.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), [Equilibria of elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-03.-Equilibria-Ellipsoidal-Collisionless-Systems.html) 
 
 * **Week 6**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/09.-N-body-Modeling.html)
 
@@ -99,9 +103,9 @@ Here, the books referenced are
 
 ## Lecture slides
 
-* **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2019/L1-AST1420-2019.pdf)
-
 2018 version below this:
+
+* **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2019/L1-AST1420-2019.pdf)
 
 * **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L1-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L2-AST1420-2018.pdf)
 
