@@ -12,7 +12,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 ## Logistics
 
 * **Meeting time / room**: 
-  * *Lectures*: Asynchronous, videos posted Tue morning at a TBD location
+  * *Lectures*: Asynchronous, videos posted Tue morning at [MS Stream](https://web.microsoftstream.com/browse?q=%23AST1420) (see [Lectures and slides](#lectures-and-slides))
   * *Weekly Q&A*: tentative time Thu 12:10 – 1:30 pm on Zoom
 
 * **Instructor**: Jo Bovy
