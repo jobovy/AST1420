@@ -105,6 +105,6 @@ Here, the books referenced are
 Prerecorded lectures are available on MS Stream and require you to log in with your UofT credentials.
 
 * **Week 1**:
-  * Lecture 1: Introduction (slides and recording to be posted after the lecture)
+  * Lecture 1: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L1-AST1420-2020.pdf) (slides)
   * Lecture 2: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/c14913e4-6a00-4af5-b4e0-5a68fa349fc8) (prerecorded)
 
