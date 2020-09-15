@@ -7,8 +7,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * [Assignments](#assignments)
 * [Lecture notes](#lecture-notes)
 * [Additional reading](#additional-reading)
-* [Lecture slides](#lecture-slides)
-* [Code](#code)
+* [Lectures and slides](#lectures-and-slides)
 
 ## Logistics
 
@@ -101,29 +100,11 @@ Here, the books referenced are
 
 > * MvdBW10: Mo, van den Bosch, \& White, 2010, Cambridge University Press. See [this link](http://people.umass.edu/hjmo/book/errata.pdf) for errata.
 
-## Lecture slides
+## Lectures and slides
 
-2018 version below this:
+Prerecorded lectures are available on MS Stream and require you to log in with your UofT credentials.
 
-* **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2019/L1-AST1420-2019.pdf)
-
-* **Week 1**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L1-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L2-AST1420-2018.pdf)
-
-* **Week 2**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L3-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L4-AST1420-2018.pdf)
-
-* **Week 3**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L5-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L6-AST1420-2018.pdf)
-
-* **Week 4**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L7-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L8-AST1420-2018.pdf)
-
-* **Week 5**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L9-AST1420-2018.pdf)
-
-* **Week 6**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L10-AST1420-2018.pdf)
-
-* **Week 7**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L11-AST1420-2018.pdf)
-
-* **Week 8**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L12-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L13-AST1420-2018.pdf)
-
-* **Week 9**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L14-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L15-AST1420-2018.pdf)
-
-* **Week 11**: [slides lecture 1](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L16-AST1420-2018.pdf), [slides lecture 2](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L17-AST1420-2018.pdf), [review slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2018/L17-review-AST1420-2018.pdf)
+* **Week 1**:
+  * Lecture 1: Introduction (slides and recording to be posted after the lecture)
+  * Lecture 2: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/c14913e4-6a00-4af5-b4e0-5a68fa349fc8) (prerecorded)
 
