@@ -7,7 +7,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * [Assignments](#assignments)
 * [Lecture notes](#lecture-notes)
 * [Additional reading](#additional-reading)
-* [Lectures and slides](#lectures-and-slides)
+* [Lectures, Q&As, and slides](#lectures-qas-and-slides)
 
 ## Logistics
 
@@ -100,11 +100,12 @@ Here, the books referenced are
 
 > * MvdBW10: Mo, van den Bosch, \& White, 2010, Cambridge University Press. See [this link](http://people.umass.edu/hjmo/book/errata.pdf) for errata.
 
-## Lectures and slides
+## Lectures, Q&As, and slides
 
 Prerecorded lectures are available on MS Stream and require you to log in with your UofT credentials.
 
 * **Week 1**:
   * Lecture 1: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L1-AST1420-2020.pdf) (slides)
   * Lecture 2: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/c14913e4-6a00-4af5-b4e0-5a68fa349fc8) (prerecorded)
+  * Q&A 1: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/fc656a54-7dd1-44de-86a4-9103a1da6e5f) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A1-AST1420-2020.pdf))
 
