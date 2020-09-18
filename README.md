@@ -102,7 +102,7 @@ Here, the books referenced are
 
 ## Lectures, Q&As, and slides
 
-Prerecorded lectures are available on MS Stream and require you to log in with your UofT credentials.
+Prerecorded lectures and the recorded Q&As are available on MS Stream and require you to log in with your UofT credentials.
 
 * **Week 1**:
   * Lecture 1: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L1-AST1420-2020.pdf) (slides)
