@@ -114,4 +114,6 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 4: [Timescales](https://web.microsoftstream.com/video/0abfe925-cdb6-47f9-afbb-bb9869d5f289) (prerecorded)
   * Lecture 5: [Introduction to gravitation](https://web.microsoftstream.com/video/8222751b-87c6-466d-bdd7-afc40294f946) (prerecorded)
   * Lecture 6: [Gravitation in spherical systems](https://web.microsoftstream.com/video/33bb08e9-16ee-4897-be69-7652a01c2df7) (prerecorded)
+  * Lecture 7: [Elements of classical mechanics](https://web.microsoftstream.com/video/c43cd4ac-9598-4032-8f31-e7f87dfe0bf1) (prerecorded)
+  * Lecture 8: [Orbits in spherical potentials](https://web.microsoftstream.com/video/20f573bb-31fe-425a-9d8c-af9e7b4db344?list=studio) (prerecorded)  
 
