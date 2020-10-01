@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 1}\\[7pt]
+\emph{Due on Oct. 15 at the start of class}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as an \texttt{ipython
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private. If you want to make further changes, you can clone your gist
+in a separate directory and use it as you would any other git
+repository. \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before uploading
+  it}; this will make sure that the input and output are fully
+consistent.
+
+If you are unfamiliar with notebooks, you can also send in a
+traditional write-up (in LaTeX), but you also need to send in
+well-commented code for how you solved the problems. Thus, notebooks
+are strongly preferred :-)\\
+
+\noindent{\bf Problem 1:} The virial mass of the NFW profile. The
+virial mass of a dark matter halo is arguably its most fundamental
+parameter, because the tight correlation between correlation and mass
+found in numerical simulations of dark-matter halo formation means
+that dark-matter halos in nature form an essentially one-dimensional
+sequence of mass. However, the virial mass depends on how one chooses
+the overdensity $\Delta_v$ that defines the virial radius. A standard
+value for this is $\Delta_v = 200$, but as we will see when we discuss
+the formation of dark-matter halos in more detail, $\Delta_v$ should
+depend on the cosmological parameters and the redshift of the halo's
+formation. When doing this, $\Delta_v \approx 200$ at high redshift
+($z \gtrsim 2$) in our Universe, but at the present day a value of
+$\Delta_v \approx 100$ is more correct. For a quantity as fundamental
+as the virial mass, many discussions of it in papers and elsewhere are
+surprisingly vague on the overdensity used to define it! Let's see how
+much of an issue this is.\\
+
+(a) Using the equations given for the NFW profile and using values
+appropriate for the Milky Way's dark-matter halo ($\rho_0 =
+0.0035\,M_\odot\,\mathrm{pc}^{-3}$ and $a = 16\,\mathrm{kpc}$),
+compute the virial radius and virial mass as a function of $\Delta_v$
+and plot them. Discuss how the virial radius and virial mass depend on
+$\Delta_v$. Use $H_0 = 70\,\mathrm{km\,s}^{-1}\,\mathrm{Mpc}^{-1}$.\\
+
+(b) What about the NFW density profile causes the behavior that you
+see?\\
+
+\noindent{\bf Problem 2:} In his colloquium a few weeks ago, Scott
+Tremaine discussed scattering of comets by the planets in the solar
+system as the comets pass through the inner solar system. He mentioned
+that scattering of the comets tends to preserve their pericentric
+distances. Let's understand why that is using what we know about
+orbits in spherical potentials!\\
+
+\noindent{\bf (a)} Consider an orbit in a spherical isochrone
+potential with $b=1$ (pick an orbit that explores $r \approx 1$ and is
+not too close to circular). Using orbit integration in \texttt{galpy},
+add an instantaneous velocity offset when the orbit is at its
+pericenter radius. Investigate what happens to the pericenter radius
+of the resulting orbit. Is it larger or smaller than the original
+pericenter radius? It is useful to consider the special cases where
+(i) you only change the radial velocity and (ii) you only change the
+tangential velocity (or equivalently the angular momentum). Does the
+answer change if you consider different orbits?\\
+
+\noindent{\bf (b)} Argue why the behavior you saw in part (a) is true
+for \emph{any} orbit in \emph{any} spherical potential. (Hint:
+consider the special cases and what happens to the effective
+potential). You can illustrate your argument with the orbit(s) that
+you investigated in (a), but make it clear why the behavior is general.\\
+
+\noindent{\bf (c)} What happens to the apocenter radius and the
+eccentricity in (a)? Investigate numerically and explain what is
+happening.\\
+
+\noindent{\bf (d)} Now consider the orbit of a comet that originates
+from the Oort cloud, at 20,000 AU and has an orbit that brings it to 2
+AU. The perturbations to the orbit near its pericenter from the
+planets lead to changes in the energy that are equivalent to changing
+the inverse semi-major axis by $10^{-4}\,\mathrm{AU}^{-1}$. By
+considering a few different ways of distributing this energy change
+into radial and tangential velocity kicks, determine how the
+pericenter and apocenter distances of this comet change. Do you see
+what Scott claimed? Discuss.\\
+
+\noindent{\bf Problem 3:} The cored isothermal sphere and
+self-interacting dark matter models.\\
+
+\noindent{\bf (a)} Equation (6.71) for the density of an isothermal
+sphere has non-singular solutions that can be found by specifying the
+boundary condition for a core: $\rho(0) = \rho_0$ and $\mathrm{d} \rho
+/ \mathrm{d} r = 0$ at $r=0$. Demonstrate by writing Equation (6.71)
+in terms of $y=\ln \tilde{\rho}/\rho_0$ and $x = r/r_0$ where $r_0^2 =
+9\sigma^2/[4\pi G\rho_0]$ that cored solutions have the form $\rho(r)
+= \rho_0\,f(r/r_0)$ and give the equation that determines $f(x)$.\\
+
+\noindent{\bf (b)} Write a function that computes $f(x)$ and use it to
+plot $\rho/\rho_0$ as a function of $r/r_0$ for the cored isothermal
+sphere. Compare what you see to the singular isothermal sphere.\\
+
+\noindent{\bf (c)} An often preferred model for the dark matter
+density profile is the NFW profile. Using an NFW profile with
+concentration 11.5 and a virial mass of $7\times 10^{11}\,M_\odot$
+(for $\Delta_v = 200$; this is like the Milky Way's dark matter halo),
+numerically compute the radial velocity dispersion profile in
+$\mathrm{km\,s}^{-1}$ for $\beta = 0$ and $\beta = 0.5$ (implement the
+integrals yourself, don't just use \texttt{galpy.df.jeans}). Plot your
+solution on a logarithmic grid from $r = 1\,\mathrm{kpc}$ to
+$r=300\,\mathrm{kpc}$.\\
+
+\noindent{\bf (d)} The cored isothermal sphere describes the inner
+regions of dark matter halos in models where dark matter particles
+interact strongly enough that they scatter off of each other and
+thermalize in regions of high enough dark-matter density (through
+interactions that are analogous to non-gravitational interactions
+between baryons). This thermalization homogenizes the velocity
+dispersion and this means that in these models, the outer dark matter
+profile is given by the standard NFW form, while the inner profile is
+that of the cored isothermal sphere. The boundary between these two
+regimes is at the radius where a dark matter particle is expected to
+scatter once. The scattering rate per unit time per particle is given by
+
+\begin{equation}
+  \Gamma(r) = {\sigma \over m}\,{4 \over \sqrt{\pi}}\,\sigma_r(r)\,\rho(r)\,,
+\end{equation}
+
+where $\sigma/m$ is the self-interacting dark matter cross section per
+unit mass (note that this is \emph{not} the same $\sigma$ as that of
+the isothermal sphere, but $\sigma/m$ is the standard notation for
+this cross section), $\sigma_r(r)$ is the radial velocity dispersion,
+and $\rho(r)$ the density profile. For $\sigma/m =
+1\,\mathrm{cm^2\,g}^{-1}$, a halo age of 10 Gyr, and the NFW halo and
+radial-velocity dispersion profiles from (c), determine the radius
+$r_1$ at which a particle in the NFW halo is expected to scatter once,
+both for $\beta=0$ and $\beta=0.5$.\\\
+
+\noindent{\bf (e)} Given the cored-isothermal sphere profile that you
+found in (b), find the cored-isothermal profile (that is, the
+parameters $\rho_0$ and $r_0$) such that the cored-isothermal
+profile's density and enclosed mass matches that of the NFW profile
+from (c) and (d) at $r_1$ (for the $\beta=0$ case for the NFW's
+velocity dispersion). Plot the entire density profile of the
+cored-isothermal profile out to $r_1$ and the NFW profile outside of
+that from 1 kpc to 300 kpc. This is a simple model for the Milky Way's
+dark matter halo if dark matter has strong self interactions!
+
+\end{document}
