@@ -7,7 +7,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 * [Assignments](#assignments)
 * [Lecture notes](#lecture-notes)
 * [Additional reading](#additional-reading)
-* [Lectures and slides](#lectures-and-slides)
+* [Lectures, Q&As, and slides](#lectures-qas-and-slides)
 
 ## Logistics
 
@@ -100,11 +100,26 @@ Here, the books referenced are
 
 > * MvdBW10: Mo, van den Bosch, \& White, 2010, Cambridge University Press. See [this link](http://people.umass.edu/hjmo/book/errata.pdf) for errata.
 
-## Lectures and slides
+## Lectures, Q&As, and slides
 
-Prerecorded lectures are available on MS Stream and require you to log in with your UofT credentials.
+Prerecorded lectures and the recorded Q&As are available on MS Stream and require you to log in with your UofT credentials.
 
 * **Week 1**:
   * Lecture 1: [Introduction](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L1-AST1420-2020.pdf) (slides)
   * Lecture 2: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/c14913e4-6a00-4af5-b4e0-5a68fa349fc8) (prerecorded)
+  * Q&A 1: [Stellar and Galactic Astrophysics](https://web.microsoftstream.com/video/fc656a54-7dd1-44de-86a4-9103a1da6e5f) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A1-AST1420-2020.pdf))
+  
+* **Week 2**:
+  * Lecture 3: [Overview of a typical galaxy](https://web.microsoftstream.com/video/1a4f1d48-211e-4fda-a64b-c9351cdf1a79) (prerecorded)
+  * Lecture 4: [Timescales](https://web.microsoftstream.com/video/0abfe925-cdb6-47f9-afbb-bb9869d5f289) (prerecorded)
+  * Lecture 5: [Introduction to gravitation](https://web.microsoftstream.com/video/8222751b-87c6-466d-bdd7-afc40294f946) (prerecorded)
+  * Lecture 6: [Gravitation in spherical systems](https://web.microsoftstream.com/video/33bb08e9-16ee-4897-be69-7652a01c2df7) (prerecorded)
+  * Lecture 7: [Elements of classical mechanics](https://web.microsoftstream.com/video/c43cd4ac-9598-4032-8f31-e7f87dfe0bf1) (prerecorded)
+  * Lecture 8: [Orbits in spherical potentials](https://web.microsoftstream.com/video/20f573bb-31fe-425a-9d8c-af9e7b4db344) (prerecorded)  
+  * Q&A 2: [Intro to galaxies and spherical mass distributions](https://web.microsoftstream.com/video/c6a3f9ac-6fbb-409d-8bd6-65c67b21f37a) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A2-AST1420-2020.pdf))
+  
+* **Week 3**:
+  * Lecture 9: [Introduction to dynamical equilibria](https://web.microsoftstream.com/video/7d251531-e71f-485d-b463-f290af1688dc) (prerecorded)
+  * Lecture 10: [Equilibria of spherical galaxies](https://web.microsoftstream.com/video/2854f4c2-76ce-4c54-8004-94bb81c188dd) (prerecorded)
+  * Lecture 11: [The masses and mass distributions of dwarf spheroidal galaxies](https://web.microsoftstream.com/video/ececfcb1-7207-4740-854b-a59ed0641bac) (prerecorded)
 
