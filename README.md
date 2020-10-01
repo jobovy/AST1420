@@ -122,4 +122,5 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 9: [Introduction to dynamical equilibria](https://web.microsoftstream.com/video/7d251531-e71f-485d-b463-f290af1688dc) (prerecorded)
   * Lecture 10: [Equilibria of spherical galaxies](https://web.microsoftstream.com/video/2854f4c2-76ce-4c54-8004-94bb81c188dd) (prerecorded)
   * Lecture 11: [The masses and mass distributions of dwarf spheroidal galaxies](https://web.microsoftstream.com/video/ececfcb1-7207-4740-854b-a59ed0641bac) (prerecorded)
+  * Q&A 3: [Intro to dynamical equilibria](https://web.microsoftstream.com/video/6a9fd5fa-dab8-4bb7-99a7-a3e900189e38) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A3-AST1420-2020.pdf))
 
