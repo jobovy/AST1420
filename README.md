@@ -128,5 +128,5 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 12: [Gravitation in disks](https://web.microsoftstream.com/video/460e7e77-094b-4023-b33d-723a6e8e1089) (prerecorded)
   * Lecture 13: [Orbits in disks](https://web.microsoftstream.com/video/8fbce854-c2c1-4776-b38b-f8b4a67c01b1) (prerecorded)
   * Lecture 14: [Galactic rotation](https://web.microsoftstream.com/video/21096155-9180-47a9-9a09-d7db258d16eb) (prerecorded)
-  * Q&A 4: [Galactic disks](https://web.microsoftstream.com/video/2407f53a-4f97-4364-b42c-5d8ce1dc86ac) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A4-AST1420-2020.pdf))
+  * Q&A 4: [Galactic disks](https://web.microsoftstream.com/video/2407f53a-4f97-4364-b42c-5d8ce1dc86ac) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A4-AST1420-2020.pdf); [activity](https://github.com/jobovy/sparc-rotation-curves))
 
