@@ -45,7 +45,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 4**: [Gravitation in galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-01.-Flattened-Mass-Distributions.html), [Orbits in disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-03.-Orbits-in-Disks.html), and [The kinematics and dynamics of galactic rotation](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-02.-Galactic-Rotation.html)
 
-* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-05.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html), [Equilibria of elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-03.-Equilibria-Ellipsoidal-Collisionless-Systems.html) 
+* **Week 5**: [Equilibria of galactic disks](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-05.-Equilibria-Flattened-Collisionless-Systems.html), [Gravitation in elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-01.-Triaxial-Mass-Distributions.html), [Surfaces of section](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/II-04.-Surfaces-of-Section.html), and [Orbits in static triaxial mass distributions](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-02.-Orbits-in-Triaxial-Mass-Distributions.html)
 
 * **Week 6**: [Numerical methods](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/09.-N-body-Modeling.html)
 
@@ -53,7 +53,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Week 8**: See additional reading below.
 
-* **Week 9**: See additional reading below.
+* **Week 9**: [Equilibria of elliptical galaxies and dark matter halos](http://astro.utoronto.ca/~bovy/AST1420/notes-2019/chapters/III-03.-Equilibria-Ellipsoidal-Collisionless-Systems.html) and see additional reading below.
 
 * **Week 11**: See additional reading below.
 
