@@ -130,3 +130,9 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 14: [Galactic rotation](https://web.microsoftstream.com/video/21096155-9180-47a9-9a09-d7db258d16eb) (prerecorded)
   * Q&A 4: [Galactic disks](https://web.microsoftstream.com/video/2407f53a-4f97-4364-b42c-5d8ce1dc86ac) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A4-AST1420-2020.pdf); [activity](https://github.com/jobovy/sparc-rotation-curves))
 
+* **Week 5**:
+  * Lecture 15: [Dynamics of stars in disk galaxies](https://web.microsoftstream.com/video/f81f7a06-e3e6-41d0-9072-3fb83350fed5) (prerecorded)
+  * Lecture 16: [The vertical equilibrium of galactic disks](https://web.microsoftstream.com/video/73bc21d9-016a-4174-8d6c-a01ece53b666) (prerecorded)
+  * Lecture 17: [Gravitation in spheroidal and ellipsoidal systems](https://web.microsoftstream.com/video/30880150-6170-4b06-9166-1d6b728b862f) (prerecorded)
+  * Lecture 18: [Surfaces of section and orbits in static, non-axisymmetric potentials](https://web.microsoftstream.com/video/8c6ca27b-3ebf-437a-9d1a-1ab515ff2259) (prerecorded)
+
