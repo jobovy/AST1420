@@ -137,4 +137,6 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 18: [Surfaces of section and orbits in static, non-axisymmetric potentials](https://web.microsoftstream.com/video/8c6ca27b-3ebf-437a-9d1a-1ab515ff2259) (prerecorded)
   * Q&A 5: [More on galactic disks and elliptical galaxies](https://web.microsoftstream.com/video/f9c5c426-18ab-4baf-9bb5-389676731b23) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A5-AST1420-2020.pdf); [activity](https://github.com/jobovy/chaos-in-the-milky-way))
 
-
+* **Week 6**:
+  * Lecture 19: [N-body simulations: gravity solvers](https://web.microsoftstream.com/video/94c15e09-adc3-4db2-8f63-f79be62f878c) (prerecorded)
+  * Lecture 20: [N-body simulations: numerical orbit integration and N-body simulations](https://web.microsoftstream.com/video/afab7394-6ce1-481b-bf2c-fd29418e279b) (prerecorded)   
