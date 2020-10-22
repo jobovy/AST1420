@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{url}
+\urldef\galpyconfig\url{https://docs.galpy.org/en/latest/installation.html#configuration-file}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 2}\\[7pt]
+\emph{Due on Nov. 5 at the start of class}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as an \texttt{ipython
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private. If you want to make further changes, you can clone your gist
+in a separate directory and use it as you would any other git
+repository. \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before uploading
+  it}; this will make sure that the input and output are fully
+consistent.
+
+If you are unfamiliar with notebooks, you can also send in a
+traditional write-up (in LaTeX), but you also need to send in
+well-commented code for how you solved the problems. Thus, notebooks
+are strongly preferred :-)\\
+
+\noindent{\bf Problem 1:} Dark matter and scaling relations in disk
+galaxies.\\
+
+In one of the recent Q\&A sessions, we played with rotation curves
+from the SPARC compilation (Lelli et al. 2016) and decomposed them
+into disk and halo contributions. Let's see what else we can learn
+about dark matter and galaxy structure from these data!\\
+
+{\bf Important note:} You can use the functions from the class
+notebook to load the and process the data, but be aware that the table
+entries as read by the code do \emph{not} appear to have proper
+\texttt{astropy} units set. This means that when you naively pass them
+to, e.g., \texttt{galpy} functions, \texttt{galpy} will interpret the
+input as having no units. You can get around this issue by explicitly
+casting the table to the units that you want, for example,
+\verb!data['R'].to(u.kpc)!. If you use \texttt{galpy} for this problem
+(which is probably useful\ldots), it may also help to add a
+configuration file\footnote{See \galpyconfig\ (note that some PDF
+  viewers do not properly work when clicking this link, so you may
+  have to copy it).} with \texttt{astropy-units = True} (this is not
+the default) to the directory in which you are working. That way,
+\texttt{galpy} functions will always return \texttt{astropy}
+Quantities with units attached.\\
+
+(a) When we did the exercise in class, we used disk rotation curves
+that were unconstrained by other data. But we in fact have
+surface-brightness measurements for all of the galaxies in the sample
+(included in the table as \texttt{SBdisk}), which we can use to
+determine an appropriate disk rotation curve and its contribution to
+the total rotation curve. For the three galaxies that we studied in
+class, re-fit the rotation curve as a razor-thin disk plus NFW halo,
+but first finding good disk parameters by fitting the surface
+brightness profile (assume $M/L = 1$ as is appropriate in the mid-IR
+used in the SPARC compilation). You can just fit by hand and determine
+parameters that roughly fit by eye.\\
+
+(b) What do you learn about the dark matter contribution in these
+galaxies?\\
+
+(c) The Tully-Fisher relation is a famous scaling relation for disk
+galaxies that relates a galaxies asymptotic velocity $V_\infty$ to its
+luminosity. It can be used, for example, to obtain distances to
+galaxies, because the rotation velocity can be measured relatively
+easily and the luminosity obtained from the relation can then be
+combined with the observed magnitude to obtain the distance. It's also
+a useful constraint on galaxy formation models. Let's use the
+bulgeless SPARC galaxies to measure the Tully-Fisher relation
+ourselves! To obtain a quantitative determination of $V_\infty$, we can
+fit the rotation curves with a gravitational potential of the form
+
+\begin{equation}
+  \phi(r) = {v_0^2\over 2}\,\ln\left(r^2 + r_0^2\right)\,,
+\end{equation}
+
+with two free parameters, $v_0$ and $r_0$. Determine the circular
+velocity as a function of radius $v_c(r)$ for this potential. What is
+$V_\infty$ in terms of $v_0$ and $r_0$?\\
+
+(d) Now fit this model to all bulgeless SPARC galaxies. Fit the model rotation velocity by minimizing $\chi^2$ defined as
+
+\begin{equation}
+  \chi^2 = \sum_i {\left[v_c(\texttt{R}_i) - \texttt{Vobs}_i\right]^2 \over \texttt{e\_Vobs}_i^2}\,,
+\end{equation}
+
+where $i$ indexes the $N$ data points for each galaxy
+$\{\texttt{R}_i,\texttt{Vobs}_i,\texttt{e\_Vobs}_i\}$. You can use
+\texttt{scipy} optimization functions for this. Compare the model fit
+to the observed rotation curve for the three galaxies from part (a)
+and do the fit for all 143 bulgeless galaxies.\\
+
+(d) Now derive the Tully-Fisher relation by computing the total
+luminosity of each galaxy and plotting $V_\infty$ versus the total
+luminosity. Discuss what you see. The Tully-Fisher relation is
+generally well fit as $L \propto V_\infty^\alpha$; if you fit this form
+to your obtained relation, what value for $\alpha$ do you get (you can
+fit without taking errors into account). What $\alpha$ do you get if
+you only include $L > 10^{10}\,L_\odot$ galaxies? Which of these two
+determinations do you think is more accurate and why?\\
+
+\noindent{\bf Problem 2:} The zero-velocity curve.\\
+
+When we looked at orbits in disk galaxies, we discussed the
+zero-velocity curve: the curve in the meridional plane $(R,z)$ where
+$v_R = v_z = 0$. Let's explore this important curve further!\\
+
+\noindent{\bf (a)} For the example orbit in Chapter 10.1, we showed
+the zero-velocity curve as a constant energy contour, but we could
+also explicitly compute $z$ as a function of $(R,E,L_z)$ on the
+zero-velocity curve by demanding that $v_R = v_z = 0$. Do this for the
+first example orbit in Chapter 10.1 and compare to the zero-velocity
+curve that you get from the contouring method. (note that you may not
+be able to solve for $z$ analytically and might have to resort to
+numerical methods\ldots)\\
+
+\noindent{\bf (b)} In the notes, we discussed how orbits touch the
+zero-velocity curve at four points, but there are orbits at a given
+$(E,L_z)$ that only touch the zero-velocity curve at \emph{two}
+points. These orbits are called the thin tubes, because in 3D they
+look like a tube (that's thin!). Devise an algorithm to find this
+orbit for a given $(E,L_z)$ and apply it to the $(E,L_z)$ of the
+example orbit in (a) [there are various, qualitatively different ways
+  to do this; explain why your algorithm works in general]. Show the
+orbit in $(R,z)$ and $(x,y,z)$? Discuss what you think is interesting
+about this orbit.
+
+\end{document}
