@@ -141,3 +141,7 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 19: [N-body simulations: gravity solvers](https://web.microsoftstream.com/video/94c15e09-adc3-4db2-8f63-f79be62f878c) (prerecorded)
   * Lecture 20: [N-body simulations: numerical orbit integration and N-body simulations](https://web.microsoftstream.com/video/afab7394-6ce1-481b-bf2c-fd29418e279b) (prerecorded) 
   * Q&A 6: [Numerical methods](https://web.microsoftstream.com/video/7a326d67-ff0a-48ff-a6ef-b665fe204c45) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A6-AST1420-2020.pdf))
+  
+* **Week 7**:
+  * Lecture 21: [Evolution of small overdensities in the Universe](https://web.microsoftstream.com/video/70e3e66e-7c9d-4181-993d-f64ced0e1962) (prerecorded)
+  * Lecture 22: [Formation of dark matter halos](https://web.microsoftstream.com/video/9b5c4e2f-10c0-40bb-af02-ebada7430d90) (prerecorded) 
