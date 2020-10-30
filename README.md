@@ -144,4 +144,5 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   
 * **Week 7**:
   * Lecture 21: [Evolution of small overdensities in the Universe](https://web.microsoftstream.com/video/70e3e66e-7c9d-4181-993d-f64ced0e1962) (prerecorded)
-  * Lecture 22: [Formation of dark matter halos](https://web.microsoftstream.com/video/9b5c4e2f-10c0-40bb-af02-ebada7430d90) (prerecorded) 
+  * Lecture 22: [Formation of dark matter halos](https://web.microsoftstream.com/video/9b5c4e2f-10c0-40bb-af02-ebada7430d90) (prerecorded)
+  * Q&A 7: [Formation of dark matter halos](https://web.microsoftstream.com/video/96c10167-a1ca-4c9f-835f-dcd1437a9dbd) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A7-AST1420-2020.pdf))
