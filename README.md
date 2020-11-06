@@ -151,4 +151,5 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 22: [Chemical evolution](https://web.microsoftstream.com/video/487e827c-1da8-4457-b16b-88aa350b5157) (prerecorded)
   * Lecture 23: [Chemical evolution of abundance ratios](https://web.microsoftstream.com/video/59ec899e-bec8-40af-a87a-0bcaa66c3d89) (prerecorded)
   * Lecture 24: [Stellar population synthesis modeling](https://web.microsoftstream.com/video/eecfec55-e470-4e20-8ea6-024522642cd4) (prerecorded)
+  * Q&A 8: [Galactic chemical evolution](https://web.microsoftstream.com/video/701f5225-89aa-4273-96b5-5f5b8d3edc13) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A8-AST1420-2020.pdf); [activity](http://astro.utoronto.ca/~bovy/AST1420/interact/sn_abu.html))
   
