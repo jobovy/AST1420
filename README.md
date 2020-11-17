@@ -153,3 +153,7 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 24: [Stellar population synthesis modeling](https://web.microsoftstream.com/video/eecfec55-e470-4e20-8ea6-024522642cd4) (prerecorded)
   * Q&A 8: [Galactic chemical evolution](https://web.microsoftstream.com/video/701f5225-89aa-4273-96b5-5f5b8d3edc13) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A8-AST1420-2020.pdf); [activity](http://astro.utoronto.ca/~bovy/AST1420/interact/sn_abu.html))
   
+* **Week 9**:
+  * Lecture 25: [Are elliptical galaxies flattened by rotation?](https://web.microsoftstream.com/video/62a51f73-b86a-47c8-a31f-12e863472408) (prerecorded)
+  * Lecture 26: [Schwarzschild modeling](https://web.microsoftstream.com/video/0fc2f0b6-6743-46f8-bbce-be2ada6b39e5) (prerecorded)
+  * Lecture 27: [The stability of disks](https://web.microsoftstream.com/video/01440555-5892-4ec6-a2be-aa0a8cb63289) (prerecorded)  
