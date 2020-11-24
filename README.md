@@ -158,3 +158,8 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 26: [Schwarzschild modeling](https://web.microsoftstream.com/video/0fc2f0b6-6743-46f8-bbce-be2ada6b39e5) (prerecorded)
   * Lecture 27: [The stability of disks](https://web.microsoftstream.com/video/01440555-5892-4ec6-a2be-aa0a8cb63289) (prerecorded)  
   * Q&A 9: [Shape of elliptical galaxies etc.](https://web.microsoftstream.com/video/8405caf0-0b5d-484f-a533-ed24d7444daf) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A9-AST1420-2020.pdf))
+  
+
+* **Week 11**:
+  * Lecture 28: [Bars in galaxies](https://web.microsoftstream.com/video/e3ed51c5-1fc6-49ed-9471-3abd8b9be06a) (prerecorded)
+  * Lecture 29: [Spiral structure in disk galaxies](https://web.microsoftstream.com/video/63f2850e-0e7e-41ac-ac0d-1a247d691243) (prerecorded)
