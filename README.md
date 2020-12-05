@@ -165,3 +165,4 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 29: [Spiral structure in disk galaxies](https://web.microsoftstream.com/video/63f2850e-0e7e-41ac-ac0d-1a247d691243) (prerecorded)
   * Lecture 30: [Mergers and dynamical friction](https://web.microsoftstream.com/video/7753131c-0526-476b-ad41-9afe30c5f39a) (prerecorded)  
   * Lecture 31: [Tides](https://web.microsoftstream.com/video/e6cd49e7-8e0d-479e-a5a4-557cb539c5db) (prerecorded)    
+  * Q&A 10: [Bars, spiral structure etc.](https://web.microsoftstream.com/video/e71fa7e8-6e56-4d59-b0b8-57fea75e4284) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A10-AST1420-2020.pdf))
