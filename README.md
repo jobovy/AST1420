@@ -29,7 +29,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Assignment 2**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment2.pdf), due Nov. 5 at the start of class
 
-* **Assignment 3**: TBP on Nov. 5, due Nov. 19 at the start of class
+* **Assignment 3**: Available [here](http://astro.utoronto.ca/~bovy/AST1420/assignments/assignment3.pdf), due Nov. 19 at the start of class
 
 ## Lecture notes
 
@@ -151,4 +151,18 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   * Lecture 22: [Chemical evolution](https://web.microsoftstream.com/video/487e827c-1da8-4457-b16b-88aa350b5157) (prerecorded)
   * Lecture 23: [Chemical evolution of abundance ratios](https://web.microsoftstream.com/video/59ec899e-bec8-40af-a87a-0bcaa66c3d89) (prerecorded)
   * Lecture 24: [Stellar population synthesis modeling](https://web.microsoftstream.com/video/eecfec55-e470-4e20-8ea6-024522642cd4) (prerecorded)
+  * Q&A 8: [Galactic chemical evolution](https://web.microsoftstream.com/video/701f5225-89aa-4273-96b5-5f5b8d3edc13) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A8-AST1420-2020.pdf); [activity](http://astro.utoronto.ca/~bovy/AST1420/interact/sn_abu.html))
   
+* **Week 9**:
+  * Lecture 25: [Are elliptical galaxies flattened by rotation?](https://web.microsoftstream.com/video/62a51f73-b86a-47c8-a31f-12e863472408) (prerecorded)
+  * Lecture 26: [Schwarzschild modeling](https://web.microsoftstream.com/video/0fc2f0b6-6743-46f8-bbce-be2ada6b39e5) (prerecorded)
+  * Lecture 27: [The stability of disks](https://web.microsoftstream.com/video/01440555-5892-4ec6-a2be-aa0a8cb63289) (prerecorded)  
+  * Q&A 9: [Shape of elliptical galaxies etc.](https://web.microsoftstream.com/video/8405caf0-0b5d-484f-a533-ed24d7444daf) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A9-AST1420-2020.pdf))
+  
+
+* **Week 11**:
+  * Lecture 28: [Bars in galaxies](https://web.microsoftstream.com/video/e3ed51c5-1fc6-49ed-9471-3abd8b9be06a) (prerecorded)
+  * Lecture 29: [Spiral structure in disk galaxies](https://web.microsoftstream.com/video/63f2850e-0e7e-41ac-ac0d-1a247d691243) (prerecorded)
+  * Lecture 30: [Mergers and dynamical friction](https://web.microsoftstream.com/video/7753131c-0526-476b-ad41-9afe30c5f39a) (prerecorded)  
+  * Lecture 31: [Tides](https://web.microsoftstream.com/video/e6cd49e7-8e0d-479e-a5a4-557cb539c5db) (prerecorded)    
+  * Q&A 10: [Bars, spiral structure etc.](https://web.microsoftstream.com/video/e71fa7e8-6e56-4d59-b0b8-57fea75e4284) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/Q&A10-AST1420-2020.pdf))
