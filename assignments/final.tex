@@ -1,0 +1,191 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{url}
+\urldef\galpyconfig\url{https://docs.galpy.org/en/latest/installation.html#configuration-file}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Final}\\[7pt]
+\emph{Due on Dec. 17 at 5pm}\\[7pt]
+\end{center}
+
+The full mark for the final includes the oral defense of the exercises
+listed here. The breakdown is: 75\% written solutions and 25\,\% oral
+defense of solutions. The points given for the different problems
+below only relate to the 75\,\% written-solutions part of the full
+mark.\\
+
+Some of the exercises in this final must be solved on a computer and
+the best way to hand in the final is as an \texttt{ipython
+  notebook}. Rather than sending me the notebook, you can upload it to
+\texttt{GitHub}, which will automatically render the notebook. Rather
+than starting a repository for a single notebook, you can upload your
+notebook as a \texttt{\href{https://gist.github.com/}{gist}}, which
+are version-controlled snippets of code that can optionally be made
+private. If you want to make further changes, you can clone your gist
+in a separate directory and use it as you would any other git
+repository. \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before uploading
+  it}; this will make sure that the input and output are fully
+consistent.
+
+If you are unfamiliar with notebooks, you can also send in a
+traditional write-up (in LaTeX), but you also need to send in
+well-commented code for how you solved the problems. Thus, notebooks
+are strongly preferred :-)\\
+
+\noindent{\bf Problem 1:} (25 points, 5 each) Short questions.\\
+
+\noindent{\bf (a)} In class, we discussed the NFW and Hernquist members of the family of two-power density models. Another commonly used member of this family is the \emph{Jaffe} profile, which can be used to describe the light and mass profile of cuspy elliptical galaxies. The density of the Jaffe profile is
+\begin{equation}
+  \rho(r) = \frac{\rho_0\,a^2}{r^2\,(1+r/a)^2}\,.
+\end{equation}
+For this profile, compute the enclosed mass as a function of $r/a$, determine the total mass $M$ in terms of $\rho_0$ and $a$, and compute the gravitational potential and circular velocity as a function of $r/a$, expressing these in terms of $(M,a)$ rather than $(\rho_0,a)$.\\
+
+\noindent{\bf (b)} Show that the velocity dispersion for an isotropic spherical system can be calculated as
+\begin{equation}
+\sigma^2 = {1 \over \nu(r)}\,\int_{\Phi(r)}^0\,\mathrm{d} \Phi'\,\nu(\Phi')\,,
+\end{equation}
+where $\Phi$ is the gravitational potential and $\nu$ is the
+density.\\
+
+\noindent{\bf (c)} New observations of the ultra-diffuse galaxy
+Dragonfly 44 show that it has a line-of-sight velocity dispersion of
+$33\pm3\,\mathrm{km\,s}^{-1}$ at its 3D half-light radius of
+$4.7\pm0.2\,\mathrm{kpc}$ and the velocity dispersion is approximately
+constant with radius. Using this information, determine the total
+dynamical mass of Dragonfly 44 within its half-light radius.\\
+
+\begin{figure}[htp]
+\includegraphics[width=\textwidth]{siegel.png}
+\caption{Observed distribution of [Eu/Fe] vs. [Fe/H] for solar
+  neighborhood stars.}\label{fig:siegel}
+\end{figure}
+
+\noindent{\bf (d)} The origin of r process elements has long been
+mysterious, but neutron-star (NS) mergers were long thought to play a
+potential role and observations of the light curve of the double NS
+merger GW170817 showed the presence of a significant amount of
+r-process material in the merger ejecta. The amount of material
+inferred combined with the rough estimate of the occurence rate
+obtained from a single NS merger was consistent with \emph{all} r
+process elements in the Universe being created in NS mergers.
+
+To get to a NS merger, a binary system must first evolve to a binary
+NS system that then slowly spirals in through gravitational wave
+radiation unil the NSs merge. This is similar to the favored
+double-degenerate scenario for type Ia supernovae, where a binary must
+evolve to a double white-dwarf binary which then slowly spirals in
+until the white dwarfs merge. The typical time scale for the latter
+process is a Gyr and we expect the time scale for the double NS merger
+therefore to be the same.
+
+Given that iron in the solar neighborhood for stars with metallicities
+like the Sun comes about 50\% from type Ia supernovae and about 50\%
+from type II supernovae, while in the double NS merger scenario 100\%
+of r process elements like Eu come from a process with similar time
+dependence as type Ia supernovae, describe what the expected location
+of stars looks like in the plane made up of [Eu/Fe] and [Fe/H] (from
+low metallicity $[\mathrm{Fe/H}] \approx -2$ to $\approx 0$; similar
+to the [O/Fe] vs. [Fe/H] plane that we discussed in class).
+
+Fig. \ref{fig:siegel} shows the observed distribution of [Eu/Fe]
+vs. [Fe/H] in the solar neighborhood. This looks similar to that of
+[Mg/Fe] vs. [Fe/H]. What can you conclude from this regarding the
+origin of the r process and the NS merger contribution?\\
+
+\noindent{\bf (e)} In Section 16.2, we saw that isotropic rotation
+cannot support the oblate structure of most elliptical galaxies. Thus,
+anisotropy in the velocity-dispersion tensor is necessary to support
+the shape of elliptical galaxies. Assuming that the dispersion tensor
+$\Pi_{zz} = (1-\delta)\,\Pi_{xx}$, with $\delta$ the global
+anisotropy parameter, derive the equivalent of relation (16.68) for
+$\delta \neq 0$ and plot the resulting relations for $\delta \in
+\{0.0,0.1,0.2,0.3,0.4,0.5\}$. Also draw curves for different ratios
+$\varepsilon_{\mathrm{int}}/\varepsilon_{\mathrm{obs}}$ as we did in
+the text, making use of the fact that the equivalent to Equation
+(16.73) for $\delta \neq 0$ modifies each occurrence of
+$W_{xx}/W_{zz}$ in that equation in the same way. By comparing to the
+data on $v/\sigma$ versus ellipticity from van de Sande et al. (2017)
+shown in the text, what values of $\delta$ are required to explain the
+oblateness of typical elliptical galaxies?\\
+
+\noindent{\bf Problem 2:} (25 points, 5 each) The epicycle
+approximation, Bertrand's theorem, and the mass distribution in the
+center of the Milky Way.\\
+
+A useful approximation of the orbits in galaxies,
+especially those of disk stars in disk galaxies, is the \emph{epicycle
+  approximation}. In this approximation, one approximates the
+gravitational effective potential by Taylor expanding it to second order
+\begin{equation}
+    \Phi_\mathrm{eff}(R,z;L_z) \approx \Phi_\mathrm{eff}(R_g,0;L_z)
+            + \frac{1}{2}\left(\frac{\partial^2 \Phi_\mathrm{eff}}{\partial R^2}\right)\Bigg|_{(R_g,0)}\,(R-R_g)^2
+            +\frac{1}{2}\left(\frac{\partial^2 \Phi_\mathrm{eff}}{\partial z^2}\right)\Bigg|_{(R_g,0)}\,z^2\,,
+\end{equation}
+around the guiding-center radius of a star. This leads to equations of
+motion that are
+\begin{align}
+   \ddot{R} = \ddot{R}-\ddot{R_g} &= -\left(\frac{\partial^2 \Phi_\mathrm{eff}}{\partial R^2}\right)\Bigg|_{(R_g,0)}\,(R-R_g)\,,\\
+   \ddot{z} & =  -\left(\frac{\partial^2 \Phi_\mathrm{eff}}{\partial z^2}\right)\Bigg|_{(R_g,0)}\,z\,,
+\end{align}
+because $\ddot{R}_g = 0$. These are the equations of a decoupled
+harmonic oscillator in $(R-R_g,z)$, with frequencies. The first of
+these, $\kappa$, is known as the epicycle frequency or as the radial
+frequency, while the second is known as the vertical frequency. A
+third important frequency is the circular frequency $\Omega(R_g)$,
+which is the azimuthal frequency of the circular orbit at $R_g$ and is
+therefore $\Omega(R_g)=v_c(R_g)/R_g=L_z/R^2_g$. As shown in Section
+10.3 in the notes, the equations of motion can be solved fully
+analytically in terms of these frequencies and the initial conditions
+and the resulting motion in $(R,\phi)$ is that of motion along an
+ellipse whose center is the guiding center, itself orbiting on a
+circular around the center. The vertical motion is a simple harmonic
+oscillation decoupled from the planar motion.\\
+
+\noindent{\bf (a)} For a flat rotation curve $v_c(R) = $ constant,
+compute $\kappa/\Omega$.\\
+
+\noindent{\bf (b)} Betrand's theorem states that the only mass
+distributions for which all orbits close are the (a) point-mass and
+(b) homogeneous density sphere. Let's investigate this here and see
+what it implies about the mass distribution in the Galactic center.
+
+If all orbits in a mass distribution close, then in particular orbits
+that are close to a circular orbit must close. Close-to-circular
+orbits are described by the epicycle approximation, so we can use this
+approximation to see whether orbits close. Using the epicycle
+approximation for spherical mass distributions---the same as that
+discussed for disks above, but without the vertical dependence of the
+potential---demonstrate that the only gravitational potentials for
+which close-to-circular orbits close have $\phi(r) \propto
+r^{\beta^2-2}$ where $\beta$ is a rational number (you can start from
+the assumption that the potential has a power-law form, because over a
+small range of radii, all potentials can be approximated as such).\\
+
+\noindent{\bf (c)} The form $\phi(r) \propto r^{\beta^2-2}$ with
+$\beta$ a rational number includes potentials where $\beta=5/3$ or
+$\beta=4/3$. Through explicit orbit integration using \texttt{galpy},
+investigate whether all orbits close in potentials with $\beta =
+[1,16/15,5/4,4/3,3/2,11/6,23/12,2]$. What can you conclude?\\
+
+\noindent{\bf (d)} Now numerically show that what you claim in (c) is
+correct by explicitly calculating the radial and azimuthal periods of
+well-chosen orbits in each of these potentials.\\
+
+\noindent{\bf (e)} In the Galactic center, we can observe (partial)
+orbits of the so-called ``S stars''. In particular, the orbit of the
+star S2 (or S0-2 depending on who you ask) has been observed through a
+full azimuthal period and its orbit closes to within the
+uncertainties. While there are closed orbits in many potentials, the
+fact that the one orbit that we observe closes (and which is not
+circular) is good evidence that \emph{all} orbits close in the mass
+distribution that S2 is orbiting in. From Bertrand's theorem we know
+that this means that the mass distribution is dominated either by a
+massive point-like object or that it is homogeneous. These are quite
+different mass distributions! Discuss what kinds of observations of
+the S stars could distinguish between these two possibilities.\\
+
+\end{document}

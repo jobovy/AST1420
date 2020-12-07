@@ -1,4 +1,4 @@
-all: assignment1.pdf assignment2.pdf assignment3.pdf #final.pdf
+all: assignment1.pdf assignment2.pdf assignment3.pdf final.pdf
 
 %.pdf: %.tex
 	pdflatex $<
