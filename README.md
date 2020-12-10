@@ -168,4 +168,4 @@ Prerecorded lectures and the recorded Q&As are available on MS Stream and requir
   
   
 * **Week 12**:
-  * Lecture 32: [Review]() (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L33-review-AST1420-2020.pdf))
+  * Lecture 32: [Review](https://web.microsoftstream.com/video/e64b8100-6586-4125-aa46-ed6dbd784423?list=studio) (recorded; [slides](http://astro.utoronto.ca/~bovy/AST1420/slides-2020/L33-review-AST1420-2020.pdf))
