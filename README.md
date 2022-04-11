@@ -19,7 +19,7 @@ Materials related to AST1420 at the University of Toronto --- Galactic Structure
 
 * **Email**: jo - dot - bovy - at - utoronto - dot - ca
 
-* **Syllabus**: Full details can be found in the [syllabus](https://github.com/jobovy/AST1420/blob/master/syllabus/syllabus-ast1420.pdf)
+* **Syllabus**: Full details can be found in the [syllabus](https://github.com/jobovy/AST1420/blob/main/syllabus/syllabus-ast1420.pdf)
 
 * **Slack channel**: [#ast1420-fall2020](https://astro-uoft.slack.com/archives/C01A5HURVAA) on the Astro@UofT slack.
 
