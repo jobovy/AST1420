@@ -1,0 +1,257 @@
+\documentclass{article}
+
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+
+\include{vc}
+
+\pagestyle{empty}
+
+\baselineskip 18pt
+\textwidth 6.25in
+\textheight 8.5in
+\oddsidemargin 0.1in
+\evensidemargin 0.1in
+\marginparwidth 0in
+\marginparsep 0in
+\topmargin -.5in
+\topskip -.5in
+\parindent 0in
+\parskip 1pt
+
+\begin{document}
+
+\begin{center}
+  \LARGE{\scshape{AST1420: Galactic structure and dynamics}}\\[5pt]
+  \Large{\scshape{Winter 2024}}\\[5pt]
+  \large{(last updated: \today; rev. \githash)}\\[25pt]
+\end{center}
+
+\section*{Course description}
+
+This graduate-level course provides an introduction to galaxies and
+their properties. The focus of the course is on the physical
+understanding of the fundamental processes that shape galaxies and
+their constituents and much attention will go to various
+manifestations of the gravitational force, arguably the most important
+force shaping galaxies. We will also focus on learning the basic
+theoretical tools and observational data sets used in the study of
+galaxies.
+
+\section*{Logistics}
+
+\begin{itemize}
+
+  \item {\bf Meeting time / place:} Mon/Fri, 1:10--2:30pm, Room: AB
+    113.\\[5pt] We will not meet during Reading Week, February 19 to 23.
+
+  \item {\bf Instructor:} Jo Bovy.
+
+  \item {\bf Email:} \href{mailto:jo.bovy@utoronto.ca}{jo.bovy@utoronto.ca}
+
+  \item {\bf Office hours:} by appointment.
+
+  \item {\bf Course website:} \url{https://github.com/jobovy/AST1420}.
+
+  \item {\bf Slack channel:} \href{https://astro-uoft.slack.com/archives/C06CGEMV8G2}{\texttt{\#ast1420-winter2024}} on the \texttt{Astro@UofT} slack.
+
+\end{itemize}
+
+\section*{Learning objectives}
+
+After this course you should understand
+
+\begin{itemize}
+
+  \item the different constituents of galaxies, their typical
+    properties (density, morphology, kinematics, etc.), and their
+    relation to one another.
+
+  \item the basic dynamical properties of mass distributions:
+    dynamical time, relaxation time, circular velocity, escape speed,
+    and the important differences between spherical, axisymmetric, and
+    triaxial mass distributions.
+
+  \item the basic properties of orbits for spherical, axisymmetric,
+    and non-axisymmetric mass distributions; the importance of
+    conservation laws and integrals of the motion in characterizing
+    orbits and galaxies.
+
+  \item the properties of close-to-circular orbits (epicycle
+    approximation) and the dynamics of the solar neighborhood.
+
+  \item rotation curves and the distribution of dark matter in
+    galaxies.
+
+  \item equilibrium states of spherical, axisymmetric, and triaxial
+    stellar systems and how to use these to observationally measure
+    the mass and orbital distributions of galaxies.
+
+  \item the formation and structure of dark matter halos in the
+    $\Lambda$CDM paradigm.
+
+  \item $N$-body modeling.
+
+  \item basic galactic chemical evolution.
+
+  \item how and why bars and spiral structure forms; how galaxies form
+    and grow through violent relaxation, phase-mixing, gas accretion,
+    mergers, and dynamical friction.
+
+  \item how we think disk and elliptical galaxies form.
+
+  \item how we know that every galaxy has a supermassive black hole at
+    its center.
+
+\end{itemize}
+
+\section*{Reading}
+
+We will mainly be using the draft of the textbook "Dynamics and Astrophysics of Galaxies"
+available at \url{https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/}.\\[5pt]
+
+For additional reading, we will mostly be using
+
+\begin{itemize}
+
+  \item Binney \& Tremaine, \emph{Galactic Dynamics, 2nd Edition},
+    2008, Princeton University Press. Errata can be found
+    \href{https://www-thphys.physics.ox.ac.uk/people/JamesBinney/web/index\_files/BT2errors.pdf}{here}.
+
+  \item Binney \& Merrifield, \emph{Galactic Astronomy},
+    1998, Princeton University Press. Errata can be found
+    \href{http://www-thphys.physics.ox.ac.uk/people/JamesBinney/bmerrors.pdf}{here}.
+
+  \item Mo, van den Bosch, \& White, \emph{Galaxy Formation and Evolution},
+    2010, Cambridge University Press. Errata can be found
+    \href{http://people.umass.edu/hjmo/book/errata.pdf}{here}.
+
+\end{itemize}
+
+\section*{Grading scheme}
+
+\begin{itemize}
+
+    \item {\bf Assignments:} 30\,\% over three assignments; see course website for due dates. Assignments are due by 5pm on Wednesdays.
+
+    \item {\bf Participation:} 20\,\%
+  
+    \item {\bf Presentations:} 20\,\%
+  
+    \item {\bf Take-home final + oral exam:} 30\,\%
+  
+  You are allowed to (and are encouraged to!) work together with
+  classmates on the assignments, but each student must hand in an
+  independent write-up of their solutions. The take-home final should be
+  your own work. Solutions must be written up in a detailed enough
+  manner to demonstrate that you understand each step. The oral exam
+  will consist of a discussion of the take-home final. 
+
+\end{itemize}
+
+\section*{Academic integrity}
+
+From Appendix D of the Academic Integrity Handbook:
+\begin{quote}
+  Academic integrity is one of the cornerstones of the University of
+  Toronto. It is critically important both to maintain our community
+  which honours the values of honesty, trust, respect, fairness, and
+  responsibility and to protect you, the students within this
+  community, and the value of the degree towards which you are all
+  working so diligently.  
+
+  According to Section B of the University of
+  Toronto's Code of Behaviour on Academic Matter
+  (\url{http://www.governingcouncil.utoronto.ca/policies/behaveac.htm})
+  which all students are expected to read and by which they are
+  expected to abide, it is an offence for students to:
+  \begin{itemize}
+    \item Use someone else's ideas or words in their own work without
+      acknowledging explicitly that those ideas/words are not their
+      own with a citation and quotation marks, i.e. to commit
+      plagiarism.
+  \item Include false, misleading, or concocted citations in their
+    work.
+  \item Obtain unauthorized assistance on any assignment. 
+  \item Provide unauthorized assistance to another students. This
+    includes showing another student your own work.
+  \item Submit their own work for credit in more than one course
+      without the permission of the instructors.
+  \end{itemize}
+
+  There are other offenses covered under the Code, but these are the
+  most common. You are instructed to respect these rules and the
+  values that they protect.
+\end{quote}
+
+\section*{Schedule}
+
+\begin{itemize}
+
+  \item {\bf Week 1:} Class logistics; Introduction to galactic
+ structure; overview of background knowledge.
+
+  \item {\bf Week 2:} General properties of gravitational potentials;
+    properties and examples of spherical mass distributions; basics of
+    classical mechanics; orbits in spherical potentials.
+
+  \item {\bf Week 3:} Galaxies as collisionless sytems; equilibrium
+    configurations of spherical systems; virial theorem; collisionless
+    Boltzmann equation; spherical Jeans equations; spherical
+    distribution functions; applications: masses of spherical systems.
+
+  \item {\bf Week 4:} Properties of disky mass distributions; orbits
+    in axisymmetric potentials; dark matter; rotation curves; gas
+    kinematics in the Milky Way.
+
+  \item {\bf Week 5:} Asymmetric drift; the dynamics of the solar
+    neighborhood; the structure of elliptical galaxies; Schwarzschild modeling; 
+    supermassive central black holes.
+
+  \item {\bf Week 6:} Numerical methods; $N$-body modeling.
+
+  \item {\bf Week 7:} Formation and evolution of dark matter halos;
+    violent relaxation; phase-mixing.
+
+  \item {\bf Week 8:} Chemical evolution of galaxies; age--abundance
+    relations in the solar neighborhood; stellar population synthesis.
+
+  \item {\bf Week 9:} Stability of stellar systems; bars; spiral arms.
+
+  \item {\bf Week 10:} Student presentations.
+
+  \item {\bf Week 11:} Mergers and dynamical friction; tides.
+
+  \item {\bf Week 12:} Review.
+
+\end{itemize}
+
+\section*{What's going on this week? What's due?}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{lcccc}
+Week & Dates &  \quad Topic & \quad Due on Wed? & \\
+\hline
+\hline
+1 & Jan 8 -- Jan 12 & Introduction to galactic structure & \\
+2 & Jan 15-- Jan 19 & Gravitation, classical mechanics, spherical orbits &  \\ 
+3 & Jan 22 -- Jan 26 & Dynamical equilibria, masses of spherical systems &  \\
+4 & Jan 29 -- Feb 02 & Galactic disks, galactic rotation &  \\
+5 & Feb 05 -- Feb 09 & Disk equilibria, elliptical galaxies &  Assignment 1 \\
+6 & Feb 12 -- Feb 16 & Numerical methods & Presentation topic  \\ 
+ & Feb 19 -- Feb 23  & {\bf Reading week, no class}&  \\
+7 & Feb 26 -- Mar 01 & Dark matter halos & Assignment 2  \\
+8 & Mar 04 -- Mar 08 & Chemical evolution &  \\
+9 & Mar 11 -- Mar 15 & Stability, bars, and spirals & \\
+10 & Mar 18 -- Mar 22 & {\bf Presentations}&  \\ 
+11 & Mar 25 -- Mar 29 & Mergers and dynamical friction & Assignment 3 \\
+12 & Apr 01 -- Apr 05 & Review &   
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{document}
+
