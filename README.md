@@ -83,3 +83,7 @@ Good additional sources of reading are the following books:
 
 ## Slides
 
+* **Week 1**: 
+  * [Introduction](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L1-AST1420-2024-intro.pdf)
+  * [Background knowledge, overview of a typical galaxy](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L2-AST1420-2024-background.pdf)
+
