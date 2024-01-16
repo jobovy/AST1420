@@ -87,3 +87,7 @@ Good additional sources of reading are the following books:
   * [Introduction](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L1-AST1420-2024-intro.pdf)
   * [Background knowledge, overview of a typical galaxy](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L2-AST1420-2024-background.pdf)
 
+* **Week 2**:
+  * [Gravitation and spherical mass distributions](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L3-AST1420-2024-potentials.pdf)
+  * [Classical mechanics and orbits](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L4-AST1420-2024-classmech-orbits.pdf)
+
