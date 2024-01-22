@@ -91,3 +91,7 @@ Good additional sources of reading are the following books:
   * [Gravitation and spherical mass distributions](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L3-AST1420-2024-potentials.pdf)
   * [Classical mechanics and orbits](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L4-AST1420-2024-classmech-orbits.pdf)
 
+* **Week 3**:
+  * [Dynamical equilibria](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L5-AST1420-2024-equilibrium.pdf)
+  * [Masses of spherical systems](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L6-AST1420-2024-sphericalmasses.pdf)
+
