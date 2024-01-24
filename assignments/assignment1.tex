@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 1}\\[7pt]
+\emph{Due on Feb. 7 by 5pm}\\[7pt]
+\end{center}
+
+Some of the exercises in this problem set must be solved on a computer
+and a good way to hand in the problem set is as a \texttt{jupyter
+  notebook}. \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before sending
+  it in}; this will make sure that the input and output are fully
+consistent. You can also send in a traditional write-up in LaTeX as a PDF, 
+but then you also need to send in well-commented code for how you solved 
+the numerical problems. Thus, notebooks are preferred :-)\\
+
+\noindent{\bf Problem 1:} We introduced the virial radius and virial mass 
+in the context of the NFW profile, but we can similarly define the virial 
+quantities for any radial mass profile. A simple model for galaxies and 
+their dark-matter halos is the logarithmic potential from 
+Equation (3.58). Again defining the virial 
+radius as the radius within which the average density is \(\Delta_v\) 
+times the critical density, demonstrate that the following useful relation 
+holds
+\begin{equation*}
+\begin{split}v_{200} = 10H\,r_{200}\,,\end{split}
+\end{equation*}
+where \(r_{200}\) is the virial radius assuming \(\Delta_v = 200\), \(v_{200}\) is 
+the circular velocity at the virial radius, and \(H\) is the Hubble constant. 
+Identifying \(v_{200}\) with the asymptotic value of the flat rotation curve for 
+other profiles, this relation gives a quick way to estimate the virial radius of a 
+galaxy.\\
+
+\noindent{\bf Problem 2:} A model for dark matter is that it is a light scalar 
+particle and, in this case, it is possible that dark matter within galaxies settles 
+into a Bose--Einstein condensate. Under a certain set of assumptions 
+(B\"{o}hmer \& Harko 2007), such a dark-matter model is equivalent to a fluid with an 
+equation of state \(p = (2\pi \hbar^2 a/m^3)\,\rho^2\) between pressure 
+\(p\) and density \(\rho\) that is in hydrostatic equilibrium 
+\(\mathrm{d} p / \mathrm{d} r = -\rho\,\mathrm{d} \Phi / \mathrm{d} r\). The 
+fundamental parameters of this theory are the particle mass \(m\) and the scattering 
+length \(a\). Considering this dark-matter model in isolation 
+(i.e., ignoring any baryons), demonstrate that the dark-matter density profile is 
+\(\rho(r) \propto \sin(kr)/(kr)\) and determine \(k\) in terms of \(m\), \(a\), and 
+universal constants. The Bose-Einstein condensate has a boundary where 
+its density goes to zero; determine this boundary—the radius of the dark-matter halo. 
+Finally, compute and plot the rotation curve of this model for parameters chosen such 
+that the radius of the halo is 15 kpc and its mass is \(10^{11}\,M_\odot\).\\
+
+\noindent{\bf Problem 3:} The precession of the perihelion of Mercury. A famous 
+postdiction by the general theory of relativity (GR) is that the perihelion of 
+Mercury precesses more than expected using Newtonian gravity (Mercury's perihelion 
+precesses through the Newtonian influence from the other planets). Specifically, 
+the azimuthal angle \(\psi_0\) of the perihelion changes from orbit to orbit. 
+For a close-to-circular orbit such as Mercury's, the effect of GR is to modify the 
+effective potential to
+\begin{equation*}
+\begin{split}\Phi_\mathrm{eff}(r;L) = \Phi(r) + \frac{L^2}{2\,r^2} + {GM L^2 \over c^2\,r^3}\,,\end{split}
+\end{equation*}
+where \(c\) is the speed of light. We can use this to compute the GR precession of the 
+pericenter angle \(\psi\) assuming that the orbit overall remains close to the 
+Keplerian one. Mercury has a semi-major axis of 0.387098 AU and an 
+eccentricity of 0.205630.\\
+
+(a) Using numerical integration, compute the GR precession between successive pericenter 
+passages (the difference between the GR prediction and the Newtonian prediction).\\
+
+(b) We can also estimate the GR precession analytically. There are various ways to do 
+this. One consists of using Equation (5.35), expanding the solution as \(v = u-u_0\) 
+around \(u_0\), the average value of \(u\) in the purely-Keplerian solution, and 
+discarding terms of order \(v^2\). Then you can solve for \(u(\psi)\) and determine 
+the GR precession analytically. Demonstrate that the final result is
+\begin{equation*}
+\begin{split}\delta \psi = {6\pi\,GM \over a\,(1-e^2)\,c^2}\,\end{split}
+\end{equation*}
+and check that the numerical value of this agrees with what you obtained in (a).\\
+
+\noindent{\bf Problem 4:} In the derivation and application of the relaxation time in 
+Section 6.1, we approximated galaxies as consisting of stars with mass \(m\). In 
+reality, however, galaxies contain significant amounts of dark matter 
+(\(\approx 50\%\) within a galaxy's visible region). Let's investigate when and how 
+this matters!\\
+
+(a) Assuming that dark matter is a new fundamental particle with a mass 
+\(m_\mathrm{DM} \ll m\), what is the relaxation time when one takes the fraction of a 
+galaxy's mass contain in dark matter into account?\\
+
+(b) If dark matter is \emph{not} a fundamental particle, but is instead a heavy object, 
+roughly at what \(m_\mathrm{DM}\) do we have to start accounting for the number of 
+dark-matter particles in a galaxy when calculating \(t_\mathrm{relax}\)?\\
+
+(c) Suppose all of the dark matter is \(100\,M_\odot\) primordial black holes 
+(a somewhat viable dark-matter candidate; Carr et al. 2021). What is the relaxation 
+time in the Milky Way in this case?\\
+
+(d) Eridanus II is a Milky-Way satellite galaxy with a compact star cluster near its 
+center that could be plausibly destroyed by two-body encounters with massive 
+dark-matter particles. The cluster has a half-light radius of \(r_h = 13\,\mathrm{pc}\) 
+and the central dark-matter distribution has a density 
+\(\rho_\mathrm{DM} \approx 0.3\,M_\odot\,\mathrm{pc}^{-3}\) 
+and velocity dispersion \(\approx 5\,\mathrm{km\,s}^{-1}\). Again assuming all of the 
+dark matter is \(100\,M_\odot\) primordial black holes, estimate the two-body relaxation 
+time for stars in the compact stellar cluster.
+
+\end{document}
