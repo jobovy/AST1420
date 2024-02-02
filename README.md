@@ -98,4 +98,5 @@ Good additional sources of reading are the following books:
 * **Week 4**:
   * [Gravitation and orbits in disks](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L7-AST1420-2024-disks.pdf)
   * [Galactic rotation](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L8-AST1420-2024-galacticrotation.pdf)
+  * [Activity](https://github.com/jobovy/sparc-rotation-curves)
 
