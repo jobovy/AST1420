@@ -100,3 +100,6 @@ Good additional sources of reading are the following books:
   * [Galactic rotation](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L8-AST1420-2024-galacticrotation.pdf)
   * [Activity](https://github.com/jobovy/sparc-rotation-curves)
 
+* **Week 5**:
+  * [Equilibria of disks](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L9-AST1420-2024-diskequilibria.pdf)
+
