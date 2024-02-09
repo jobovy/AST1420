@@ -102,4 +102,5 @@ Good additional sources of reading are the following books:
 
 * **Week 5**:
   * [Equilibria of disks](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L9-AST1420-2024-diskequilibria.pdf)
+  * [Elliptical galaxies, Schwarzschild modeling, and supermassive black holes](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L10-AST1420-2024-ellipticals.pdf)
 
