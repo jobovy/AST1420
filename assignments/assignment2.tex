@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1420 ``Galactic Structure and Dynamics'' Problem Set 2}\\[7pt]
+\emph{Due on Feb. 28 by 5pm}\\[7pt]
+\end{center}
+
+Some of the exercises in this problem set must be solved on a computer
+and a good way to hand in the problem set is as a \texttt{jupyter
+  notebook}. \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before sending
+  it in}; this will make sure that the input and output are fully
+consistent. You can also send in a traditional write-up in LaTeX as a PDF, 
+but then you also need to send in well-commented code for how you solved 
+the numerical problems. Thus, notebooks are preferred :-)\\
+
+\noindent{\bf Problem 1:} The density flattening of the logarithmic potential.\\
+
+(a) Equation (8.24) for the density flattening of a flattened logarithmic potential with 
+potential flattening \(q\) is derived by defining the density flattening \(q_\rho\) as 
+the ratio \(z_m/R_m\) of the values \(z_m\) and \(R_m\) at which a constant-density 
+contour intersects the \(z\) and \(R\) axes, respectively (e.g., for a contour with 
+\(\rho(R,z) = C\), \(z_m\) is the value for which \(\rho(0,z_m) = C\)). Derive Equation 
+(8.24).\\
+
+(b) A different way of defining the flattening is to locally approximate the 
+constant-density contour as an ellipse in \((R,z)\) and using that ellipse's axis ratio 
+as the flattening. Demonstrate that the density flattening in this case is given by
+\begin{equation*}
+\begin{split}q_\rho^2 = {z\over R}\,{\partial \rho(R,z) / \partial z \over \partial \rho(R,z) / \partial R}\,.\end{split}
+\end{equation*}
+
+(c) For a representative set of \(q\), determine the flattening along a constant-density 
+contour using the definition in b. and compare it to Equation (8.24). Discuss your results.\\
+
+\noindent{\bf Problem 2:} We did a rotation-curve activity with the SPARC sample of 175 
+nearby galaxies with mid-infrared photometry photometry from the Spitzer space telescope 
+(at \(3.6\,\mu\mathrm{m}\)) and precise rotation curves from 21cm and H\(\alpha\) 
+observations in class (these are also used in Chapter 9.6). Let's see what else we can 
+learn from this sample!\\
+
+(a) In the activity, we tried to fit the rotation curves with exponential disks plus 
+NFW halos without using the observed surface brightness profiles. We saw that there was 
+a significant degeneracy between the disk and halo parameters. However, we can use the
+observed surface brightness profiles to break this degeneracy. When we restrict 
+ourselves to the sub-sample of pure disk galaxies (i.e., without a bulge component, 
+which are galaxies with very small \texttt{Vbul} in the database), a simple exponential 
+surface-brightness profile provides a good fit. For the galaxies UGC 05918, UGC 08490, and 
+NGC 6503, find good disk parameters by fitting the surface brightness profile with an 
+exponential and then predict the disk rotation curve assuming \(M/L=1\), as is 
+appropriate in the mid-infrared. What do you see?\\
+
+(b) Now fit exponential-disk + NFW-halo models to the rotation curves by keeping the 
+disk model fixed at that from (a) and adjusting the NFW parameters by hand to obtain a 
+good fit to the rotation curve. What do you learn about the dark matter contribution in 
+these galaxies?\\
+
+\noindent{\bf Problem 3:} Chaos in a popular model for galactic disks? A useful way to 
+visualize orbits in axisymmetric and non-axisymmetric potentials is to use surfaces of
+section. We did not discuss these in class, so we wil use this exercise as an excuse to 
+learn about them! Briefly, for a time-independent axisymmetric potential, a surface of 
+section is a 2D surface in the 4D phase space \((R,v_R,z,v_z)\) of an orbit. Because of 
+the conservation of energy, the orbit is confined to a 3D surface in this 4D space, and
+when we slice this 3D surface with a 2D surface of section, we get a curve in 2D. In the 
+absence of a third integral of motion, this curve should fill a 2D area when one 
+integrates long enough and the orbit is chaotic. But if there is a third isolating 
+integral of motion, then the curve traces out a simple 1D curve. Thus, we can use 
+surfaces of section to investigate whether orbits in a given potential are regular or 
+chaotic. For an axisymmetric potential that is symmetric with respect to the \(z=0\) 
+plane, we use the $z=0$ plane as the surface, only considering orbits with \(v_z > 0\). 
+Read Sections 14.1, 14.2, and 14.3 of the book to learn more about surfaces of section 
+and feel free to liberally use code you find there to do this problem.\\
+
+As we discussed in Chapter 8.2.2, a simple yet not-that-unrealistic model for the 
+gravitational potential of galactic disks is the Miyamoto-Nagai model (see Equation 8.19). 
+This model is a thickened version of the Kuzmin disk model from Chapter 8.2.1. We will 
+not demonstrate this here, but an interesting property of the Kuzmin disk is that all
+orbits are regular (i.e., not chaotic and satisfy a third integral of motion in addition 
+to $E$ and $L_z$). There is no known analytical way to determine whether or not all 
+orbits in Miyamoto-Nagai disks are regular, but we can investigate numerically using 
+surfaces of section.\\
+
+(a) To conveniently initialize potentially chaotic orbits in different potentials, write 
+functions that (i) compute the energy \(E_c(R_c)\) of a circular orbit at a given radius 
+\(R_c\) in a given potential \(\Phi\) and (ii) the \(z\)-component of the angular momentum 
+\(L_c(E_c)\) for this orbit.\\
+
+(b) Orbits with low \(L_z/L_c\) have large eccentricities and are most likely to be 
+chaotic. For a Miyamoto-Nagai disk model with \(a=1\) and \(b/a = 0.1\), investigate 
+the orbit of section $(R,v_R)$ for orbits with \(E = E_c(R_c = 3\,(a+b))\) and 
+\(L_z = 0.1\,L_c(E_c)\). The orbit of section in this case is a representative sampling 
+of all possible orbits at this energy and angular momentum like in Figure 14.3. Does it 
+show any sign of chaos?\\
+
+(c) Repeat the analysis in b. for a model with \(b/a = 0.1\). Does the surface of section 
+contain any chaotic orbits?\\
+
+(d) Investigate some further surfaces of section at different \(R_c\) and \(L_z/L_c\) for 
+the potentials in b. and c. Do you see any signs of chaos? The reason that you most likely 
+do not is that the Miyamoto-Nagai model smoothly goes between the Kuzmin 
+model (for \(b/a=0\)) to the Plummer model (for \(a/b=0\)), both of which have all 
+regular orbits (for the Plummer model this is because it is spherical and all orbits in 
+spherical potentials are regular). This appears to be a strong enough constraint to 
+avoid chaos in all Miyamoto-Nagai models (although this has not been 
+proven and perhaps you have found a chaotic orbit!).
+
+\end{document}
