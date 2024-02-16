@@ -104,3 +104,6 @@ Good additional sources of reading are the following books:
   * [Equilibria of disks](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L9-AST1420-2024-diskequilibria.pdf)
   * [Elliptical galaxies, Schwarzschild modeling, and supermassive black holes](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L10-AST1420-2024-ellipticals.pdf)
 
+* **Week 6**:
+  * [N-body solvers](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L11-AST1420-2024-nbody.pdf)
+  * [Orbit integration and N-body sims](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L12-AST1420-2024-orbitintegration-nbodysims.pdf)
