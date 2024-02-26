@@ -62,7 +62,7 @@ All assignments are due by 5pm on the day they are due (Wednesday).
 
 * **Week 6**: [N-body modeling](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/III-01.-Gravitation-in-Elliptical-Galaxies-and-Dark-Matter-Halos.html#N-body-modeling)
 
-* **Week 7**: [Formation of dark matter halos](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/IV-01.-Formation-of-Dark-Matter-Halos.html), but skip Sec. 18.1.5 and 18.4.
+* **Week 7**: [Formation of dark matter halos](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/IV-01.-Formation-of-Dark-Matter-Halos.html), but skip Sec. 18.1.5.
 
 * **Week 8**: [Chemical evolution in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/II-05.-Chemical-Evolution-in-Galaxies.html)
 
@@ -107,3 +107,7 @@ Good additional sources of reading are the following books:
 * **Week 6**:
   * [N-body solvers](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L11-AST1420-2024-nbody.pdf)
   * [Orbit integration and N-body sims](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L12-AST1420-2024-orbitintegration-nbodysims.pdf)
+
+* **Week 7**:
+    * [The evolution of dark-matter and baryonic perturbations in the Universe](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L13-AST1420-2024-dmperturbations.pdf)
+    * [The formation of dark matter halos](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L14-AST1420-2024-dmhalos.pdf)
