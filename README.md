@@ -111,3 +111,7 @@ Good additional sources of reading are the following books:
 * **Week 7**:
     * [The evolution of dark-matter and baryonic perturbations in the Universe](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L13-AST1420-2024-dmperturbations.pdf)
     * [The formation of dark matter halos](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L14-AST1420-2024-dmhalos.pdf)
+
+* **Week 8**:
+    * [Chemical evolution in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L15-AST1420-2024-chemev.pdf)
+    * [Stellar population synthesis](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L16-AST1420-2024-sps.pdf)
