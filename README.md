@@ -116,3 +116,6 @@ Good additional sources of reading are the following books:
     * [Chemical evolution in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L15-AST1420-2024-chemev.pdf)
     * [Stellar population synthesis](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L16-AST1420-2024-sps.pdf)
     * [Activity](https://astro.utoronto.ca/~bovy/AST1420/interact/sn_abu.html)
+
+* **Week 9**:
+    * [Disk stability and the Toomre criterion](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L17-AST1420-2024-stability.pdf)
