@@ -29,7 +29,7 @@ All assignments are due by 5pm on the day they are due (Wednesday).
 
 * **Assignment 2**: Available [here](assignments/assignment2.pdf), due Feb 28.
 
-* **Assignment 3**: To be posted on Mar. 13, due Mar. 27.
+* **Assignment 3**: Available [here](assignments/assignment3.pdf), due Mar. 27.
 
 ## Lecture notes
 
