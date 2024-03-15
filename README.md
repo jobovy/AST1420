@@ -119,3 +119,5 @@ Good additional sources of reading are the following books:
 
 * **Week 9**:
     * [Disk stability and the Toomre criterion](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L17-AST1420-2024-stability.pdf)
+    * [Bars in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L18-AST1420-2024-bars.pdf)
+    * [Spiral structure in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L19-AST1420-2024-spirals.pdf)
