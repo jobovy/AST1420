@@ -68,7 +68,7 @@ All assignments are due by 5pm on the day they are due (Wednesday).
 
 * **Week 9**: [Internal evolution in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/IV-05.-Internal-Evolution-in-Galaxies.html), mainly Sec. 21.1.1, 21.2.1, 21.2.3, 21.2.4, 21.3.1, 21.3.2, and 21.3.4 (so all but Sec. 21.1.2, 21.2.2, and 21.3.2).
 
-* **Week 11**: Sec. 20.4 in [Hierarchical galaxy formation](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/IV-04.-Hierarchical-Galaxy-Formation.html).
+* **Week 11**: Secs. 20.1 and 20.4 in [Hierarchical galaxy formation](https://www.astro.utoronto.ca/~bovy/AST1420/bookdraft/chapters/IV-04.-Hierarchical-Galaxy-Formation.html).
 
 
 ## Additional reading
