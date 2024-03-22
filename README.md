@@ -121,3 +121,8 @@ Good additional sources of reading are the following books:
     * [Disk stability and the Toomre criterion](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L17-AST1420-2024-stability.pdf)
     * [Bars in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L18-AST1420-2024-bars.pdf)
     * [Spiral structure in galaxies](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L19-AST1420-2024-spirals.pdf)
+
+* **Week 11**:
+    * [Mergers](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L20-AST1420-2024-mergers.pdf)
+    * [Dynamic friction](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L21-AST1420-2024-dynamicalfriction.pdf)
+    * [Tides](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L22-AST1420-2024-tides.pdf)
