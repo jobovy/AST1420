@@ -126,3 +126,6 @@ Good additional sources of reading are the following books:
     * [Mergers](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L20-AST1420-2024-mergers.pdf)
     * [Dynamic friction](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L21-AST1420-2024-dynamicalfriction.pdf)
     * [Tides](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L22-AST1420-2024-tides.pdf)
+
+* **Week 12**:
+    * [Review](https://www.astro.utoronto.ca/~bovy/AST1420/slides-2024/L23-AST1420-2024-review.pdf)
